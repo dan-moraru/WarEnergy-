@@ -7,6 +7,10 @@ body {
   border: 2px solid black;
 }
 
+h1, h2, nav{
+  text-align: center;
+}
+
 header{
   grid-column: 1 / 9;
   grid-row: 1 / 3;
