@@ -35,3 +35,7 @@ footer{
   border: 2px solid red;
 }
 
+header figure {
+  /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
+}
+
