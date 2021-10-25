@@ -14,7 +14,7 @@ header{
 }
 
 nav{
-  grid-column: 2 / 3;
+  grid-column: 4 / 5;
   grid-row: 2 / 3;
   border: 2px solid orange;
 }
