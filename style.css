@@ -2,27 +2,32 @@
 
 body {
   display: grid;
-  grid-template-columns: 4;
-  grid-template-rows: 4;
+  grid-template-columns: 8;
+  grid-template-rows: 8;
+  border: 2px solid black;
 }
 
 header{
-  grid-column: 2 / 3;
+  grid-column: 3 / 4;
   grid-row: 1 / 2;
+  border: 2px solid blue;
 }
 
 nav{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  border: 2px solid orange;
 }
 
 main{
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+  border: 2px solid green;
 }
 
 footer{
   grid-column: 2 / 3;
   grid-row: 4 / 4;
+  border: 2px solid red;
 }
 
