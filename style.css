@@ -1,20 +1,18 @@
 /* a minimalist set of CSS resets */
 
-/* default to border-box */
-html {
-  
-}
-
-/* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 15;
+  grid-template-rows: 15;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+header{
+  grid-column: 6;
+  grid-row: 6;
 }
+
+nav{
+  grid-column: 6;
+  grid-row: 7;
+}
+
