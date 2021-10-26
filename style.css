@@ -1,13 +1,13 @@
 /* a minimalist set of CSS resets */
 
-/*body {
+body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
   border: 2px solid black;
 }
 
-h2, nav{
+h1, h2, nav{
   text-align: center;
 }
 
@@ -33,57 +33,9 @@ footer{
   grid-column: 1 / 9;
   grid-row: 8 / 9;
   border: 2px solid red;
-}*/
+}
 
 header figure {
   /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
 }
-
-#w{
-  
-}
-#a{
-  
-}
-#r{
-
-}
-#e{
-
-}
-#n{
-
-}
-#et{
- 
-}
-#r{
-  
-}
-#g{
-  
-}
-#y{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
