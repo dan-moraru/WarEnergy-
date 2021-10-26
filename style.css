@@ -39,3 +39,76 @@ header figure {
   /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
 }
 
+.overlaped{
+  width: 100%;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-familty: 'American Purpose';
+  font-size: 15em;
+  font-weight: bold;
+  text-shadow: 6px 2px 7px black;
+  color: blue;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#l1{
+  position: absolute;
+  z-index: 9;
+  padding-left: 250px;
+}
+#l2{
+  position: absolute;
+  z-index: 8;
+  padding-left: 250px;
+  position: 340px;
+}
+#l3{
+  position: absolute;
+  z-index: 7;
+  padding-left: 250px;
+  position: 435px;
+}
+#l4{
+  position: absolute;
+  z-index: 6;
+  padding-left: 250px;
+  position: 500px;
+}
+#l5{
+  position: absolute;
+  z-index: 5;
+  padding-left: 250px;
+  position: 600px;
+}
+#l6{
+  position: absolute;
+  z-index: 4;
+  padding-left: 650px;
+}
+#l7{
+  position: absolute;
+  z-index: 3;
+  padding-left: 250px;
+  padding-left: 740px;
+}
+#l8{
+  position: absolute;
+  z-index: 2;
+  padding-left: 250px;
+  padding-left: 650px;
+}
+#l9{
+  position: absolute;
+  z-index: 1;
+  padding-left: 250px;
+  padding-left: 650px;
+}
+
+
