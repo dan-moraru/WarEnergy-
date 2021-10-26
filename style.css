@@ -5,6 +5,7 @@ body {
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
   border: 2px solid black;
+  
 }
 
 h1, h2, nav{
@@ -49,8 +50,7 @@ header figure {
   font-familty: 'American Purpose';
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 6px 2px 7px black;
-  color: blue;
+  text-shadow: 6px 2px 7px ;
 }
 
 *{
@@ -60,55 +60,50 @@ header figure {
 
 #l1{
   position: absolute;
-  z-index: 9;
+  z-index: 8;
   padding-left: 250px;
+  background: linear-gradient(90deg, #33312B 0%, #53432C 20%, #675A36 35%, #7E7450 60%, #60643E 80%, #4C523B 100%);
 }
 #l2{
   position: absolute;
-  z-index: 8;
-  padding-left: 250px;
-  position: 340px;
+  z-index: 7;
+  padding-left: 360px;
 }
 #l3{
   position: absolute;
-  z-index: 7;
-  padding-left: 250px;
-  position: 435px;
+  z-index: 6;
+  padding-left: 440px;
 }
 #l4{
   position: absolute;
-  z-index: 6;
-  padding-left: 250px;
-  position: 500px;
+  z-index: 5;
+  padding-left: 495px;
 }
 #l5{
   position: absolute;
-  z-index: 5;
-  padding-left: 250px;
-  position: 600px;
+  z-index: 4;
+  padding-left: 560px;
+
 }
 #l6{
   position: absolute;
-  z-index: 4;
-  padding-left: 650px;
+  z-index: 3;
+  padding-left: 640px;
 }
 #l7{
   position: absolute;
-  z-index: 3;
-  padding-left: 250px;
-  padding-left: 740px;
+  z-index: 2;
+  padding-left: 710px;
 }
 #l8{
   position: absolute;
-  z-index: 2;
-  padding-left: 250px;
-  padding-left: 650px;
+  z-index: 1;
+  padding-left: 760px;
 }
 #l9{
   position: absolute;
-  z-index: 1;
-  padding-left: 250px;
-  padding-left: 650px;
+  z-index: 0;
+  padding-left: 830px;
 }
 
 
