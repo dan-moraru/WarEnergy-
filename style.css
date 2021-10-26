@@ -55,8 +55,12 @@ header figure {
 
 h1 {
   font-size: 240px;
-  linear-gradient(90deg, #33312B 0%, #53432C 20%, #675A36 35%, #7E7450 60%, #60643E 80%, #4C523B 100%);
+  background: -webkit-linear-gradient(120deg, #ff00f7, #00d0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill
+  /*color: -webkit-*/
 }
+
 *{
   padding: 0px;
   margin: 0px;
