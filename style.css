@@ -1,6 +1,6 @@
 /* a minimalist set of CSS resets */
 
-body {
+/*body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 1fr);
@@ -33,23 +33,17 @@ footer{
   grid-column: 1 / 9;
   grid-row: 8 / 9;
   border: 2px solid red;
-}
+}*/
 
 header figure {
   /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
-}
-
-.inline {
-  display: inline;
-  padding: 0px;
 }
 
 #w{
   
 }
 #a{
-  margin: none;
-  padding
+  
 }
 #r{
 
