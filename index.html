@@ -12,17 +12,31 @@
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    
   </head>
   <body>
     <form>
       <fieldset>
-        <legend>Login</legend>
-        <label>Username:
-          <input type="text" id="username" name="username">
-        </label>
-        <label>Password:
-          <input type="password" id="password" name="password">
-        </label>
+        <div>
+          <legend>Login</legend>
+          <label>Username:
+            <input type="text" id="username" name="username"/>
+          </label>
+        </div>
+        <div>
+          <label>Password:
+            <input type="password" id="password" name="password"/>
+          </label>
+        </div>
+        <div>
+          <label>            
+            <input type="checkbox" id="remember-me" name="remember-me"/>
+            Remember me
+          </label>
+        </div>
+        <div>
+          <button type"submit">Submit</button>
+        </div>       
       </fieldset>
     </form>
         
