@@ -50,14 +50,14 @@ header figure {
   font-familty: 'American Purpose';
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 6px 2px 7px white;
+  text-shadow: 90px 10px 10px none;
 }
 
 h1 {
   font-size: 240px;
-  background: -webkit-linear-gradient(120deg, #ff00f7, #00d0ff);
+  background: -webkit-linear-gradient(90deg, #33312B 5%, #53432C 20%, #675A36 40%, #7E7450 60%, #60643E 80%, #4C523B 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill
+  -webkit-text-fill-color: transparent;
   /*color: -webkit-*/
 }
 
