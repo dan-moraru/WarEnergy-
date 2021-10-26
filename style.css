@@ -7,7 +7,7 @@ body {
   border: 2px solid black;
 }
 
-h1, h2, nav{
+h2, nav{
   text-align: center;
 }
 
@@ -38,4 +38,58 @@ footer{
 header figure {
   /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
 }
+
+.inline {
+  display: inline;
+  padding: 0px;
+}
+
+#w{
+  
+}
+#a{
+  margin: none;
+  padding
+}
+#r{
+
+}
+#e{
+
+}
+#n{
+
+}
+#et{
+ 
+}
+#r{
+  
+}
+#g{
+  
+}
+#y{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
