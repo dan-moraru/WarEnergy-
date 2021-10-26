@@ -50,9 +50,13 @@ header figure {
   font-familty: 'American Purpose';
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 6px 2px 7px ;
+  text-shadow: 6px 2px 7px white;
 }
 
+h1 {
+  font-size: 240px;
+  linear-gradient(90deg, #33312B 0%, #53432C 20%, #675A36 35%, #7E7450 60%, #60643E 80%, #4C523B 100%);
+}
 *{
   padding: 0px;
   margin: 0px;
@@ -62,7 +66,7 @@ header figure {
   position: absolute;
   z-index: 8;
   padding-left: 250px;
-  background: linear-gradient(90deg, #33312B 0%, #53432C 20%, #675A36 35%, #7E7450 60%, #60643E 80%, #4C523B 100%);
+  
 }
 #l2{
   position: absolute;
