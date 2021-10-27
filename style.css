@@ -48,8 +48,8 @@ header figure {
 .overlaped{
   width: 100%;
   height: 100vh;
-  top: 50%;
-  left: 50%;
+  top: 450px;
+  left: 775px;
   position: absolute;
   transform: translate(-50%, -50%);
   font-family: warFont;
@@ -76,7 +76,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: warFont;
-  text-shadow: 0px 0px 90px darkgreen;
+  text-shadow: 0px 0px 250px lime;
 }
 #l2{
   position: absolute;
@@ -85,7 +85,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(83, 13%, 34%, 1) 0%, hsla(68, 57%, 22%, 1) 33%, hsla(40, 13%, 5%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 90px darkgreen;
+  text-shadow: 0px 0px 250px lime;
 }
 #l3{
   position: absolute;
@@ -94,7 +94,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(68, 57%, 22%, 1) 0%, hsla(68, 12%, 48%, 1) 49%, hsla(109, 80%, 25%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 90px darkgreen;
+  text-shadow: 0px 0px 250px lime;
 }
 #l4{
   position: absolute;
@@ -103,7 +103,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(184, 100%, 50%, 1) 0%, hsla(0, 0%, 19%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 90px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 #l5{
   position: absolute;
@@ -112,7 +112,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(0, 0%, 28%, 1) 0%, hsla(207, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 90px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 #l6{
   position: absolute;
@@ -121,7 +121,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(182, 100%, 50%, 1) 0%, hsla(291, 100%, 16%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 150px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 #l7{
   position: absolute;
@@ -130,7 +130,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 150px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 #l8{
   position: absolute;
@@ -139,7 +139,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(143, 34%, 48%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 150px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 #l9{
   position: absolute;
@@ -148,7 +148,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(229, 61%, 48%, 1) 0%, hsla(182, 100%, 83%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 150px lightblue;
+  text-shadow: 0px 0px 250px aqua;
 }
 
 
