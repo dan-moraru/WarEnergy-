@@ -50,7 +50,7 @@ header figure {
   font-familty: 'American Purpose';
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 90px 10px 10px none;
+  text-shadow: 7px 7px 125px darkgreen;
 }
 
 h1 {
@@ -68,7 +68,7 @@ h1 {
   position: absolute;
   z-index: 8;
   padding-left: 250px;
-  background: -webkit-linear-gradient(90deg, #675A36, white);
+  background: -webkit-linear-gradient(90deg, #675A36, );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
