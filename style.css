@@ -139,7 +139,7 @@ h1 {
   position: absolute;
   z-index: 0;
   padding-left: 1270px;
-  background: -webkit-linear-gradient(hsla(55, 56%, 61%, 1) 0%, hsla(0, 1%, 28%, 1) 100%);
+  background: -webkit-linear-gradient();
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
