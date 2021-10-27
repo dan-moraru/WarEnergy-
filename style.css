@@ -55,7 +55,7 @@ header figure {
   font-family: warFont;
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 7px 7px 125px darkgreen;
+  text-shadow: 0px 0px 150px white;
 }
 
 h1 {
@@ -115,7 +115,7 @@ h1 {
   position: absolute;
   z-index: 3;
   padding-left: 925px;
-  background: -webkit-linear-gradient();
+  background: -webkit-linear-gradient(hsla(182, 100%, 50%, 1) 0%, hsla(291, 100%, 16%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -123,7 +123,7 @@ h1 {
   position: absolute;
   z-index: 2;
   padding-left: 1025px;
-  background: -webkit-linear-gradient();
+  background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,7 +131,7 @@ h1 {
   position: absolute;
   z-index: 1;
   padding-left: 1145px;
-  background: -webkit-linear-gradient();
+  background: -webkit-linear-gradient(hsla(143, 34%, 48%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -139,7 +139,7 @@ h1 {
   position: absolute;
   z-index: 0;
   padding-left: 1270px;
-  background: -webkit-linear-gradient();
+  background: -webkit-linear-gradient(hsla(229, 61%, 48%, 1) 0%, hsla(182, 100%, 83%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
