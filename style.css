@@ -39,7 +39,7 @@ footer{
 header figure {
   /* SEPARATE THE LOGO AND MAKE IT CHANGE COLOR ON HOVER SO THE TEXT AND THE OTHER PART WOULD APPEAR*/
 }
-
+/* https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FScorchedearth-4Ljp.otf?v=1635298581003 -->*/
 @font-face{
   font-family: warFont;
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FScorchedearth-4Ljp.otf?v=1635298581003);
@@ -55,7 +55,6 @@ header figure {
   font-family: warFont;
   font-size: 15em;
   font-weight: bold;
-  text-shadow: 0px 0px 150px white;
 }
 
 h1 {
@@ -77,6 +76,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: warFont;
+  text-shadow: 0px 0px 90px darkgreen;
 }
 #l2{
   position: absolute;
@@ -85,6 +85,7 @@ h1 {
   background: -webkit-linear-gradient(hsla(83, 13%, 34%, 1) 0%, hsla(68, 57%, 22%, 1) 33%, hsla(40, 13%, 5%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 90px darkgreen;
 }
 #l3{
   position: absolute;
@@ -93,55 +94,61 @@ h1 {
   background: -webkit-linear-gradient(hsla(68, 57%, 22%, 1) 0%, hsla(68, 12%, 48%, 1) 49%, hsla(109, 80%, 25%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 90px darkgreen;
 }
 #l4{
   position: absolute;
   z-index: 5;
-  padding-left: 650px;
+  padding-left: 700px;
   background: -webkit-linear-gradient(hsla(184, 100%, 50%, 1) 0%, hsla(0, 0%, 19%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 90px lightblue;
 }
 #l5{
   position: absolute;
   z-index: 4;
-  padding-left: 750px;
+  padding-left: 800px;
   background: -webkit-linear-gradient(hsla(0, 0%, 28%, 1) 0%, hsla(207, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  text-shadow: 0px 0px 90px lightblue;
 }
 #l6{
   position: absolute;
   z-index: 3;
-  padding-left: 925px;
+  padding-left: 960px;
   background: -webkit-linear-gradient(hsla(182, 100%, 50%, 1) 0%, hsla(291, 100%, 16%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 150px lightblue;
 }
 #l7{
   position: absolute;
   z-index: 2;
-  padding-left: 1025px;
+  padding-left: 1065px;
   background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 150px lightblue;
 }
 #l8{
   position: absolute;
   z-index: 1;
-  padding-left: 1145px;
+  padding-left: 1180px;
   background: -webkit-linear-gradient(hsla(143, 34%, 48%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 150px lightblue;
 }
 #l9{
   position: absolute;
   z-index: 0;
-  padding-left: 1270px;
+  padding-left: 1300px;
   background: -webkit-linear-gradient(hsla(229, 61%, 48%, 1) 0%, hsla(182, 100%, 83%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0px 0px 150px lightblue;
 }
 
 
