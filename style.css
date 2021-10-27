@@ -98,7 +98,7 @@ h1 {
   position: absolute;
   z-index: 5;
   padding-left: 650px;
-  background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(109, 46%, 21%, 1) 100%);
+  background: -webkit-linear-gradient(hsla(184, 100%, 50%, 1) 0%, hsla(0, 0%, 19%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -106,7 +106,7 @@ h1 {
   position: absolute;
   z-index: 4;
   padding-left: 750px;
-  background: -webkit-linear-gradient(hsla(111, 97%, 12%, 1) 0%, hsla(108, 4%, 74%, 1) 100%);
+  background: -webkit-linear-gradient(hsla(0, 0%, 28%, 1) 0%, hsla(207, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -115,7 +115,7 @@ h1 {
   position: absolute;
   z-index: 3;
   padding-left: 925px;
-  background: -webkit-linear-gradient(hsla(105, 14%, 11%, 1) 0%, hsla(108, 4%, 74%, 1) 100%);
+  background: -webkit-linear-gradient();
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -123,7 +123,7 @@ h1 {
   position: absolute;
   z-index: 2;
   padding-left: 1025px;
-  background: -webkit-linear-gradient(hsla(105, 100%, 13%, 1) 0%, hsla(29, 17%, 39%, 1) 100%);
+  background: -webkit-linear-gradient();
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,7 +131,7 @@ h1 {
   position: absolute;
   z-index: 1;
   padding-left: 1145px;
-  background: -webkit-linear-gradient(hsla(55, 59%, 38%, 1) 0%, hsla(107, 71%, 17%, 1) 100%);
+  background: -webkit-linear-gradient();
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -139,7 +139,7 @@ h1 {
   position: absolute;
   z-index: 0;
   padding-left: 1270px;
-  background: -webkit-linear-gradient(hsla(135, 83%, 14%, 1) 0%, hsla(0, 0%, 57%, 1) 100%);
+  background: -webkit-linear-gradient(hsla(55, 56%, 61%, 1) 0%, hsla(0, 1%, 28%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
