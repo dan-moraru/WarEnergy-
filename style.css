@@ -68,7 +68,7 @@ h1 {
   position: absolute;
   z-index: 8;
   padding-left: 250px;
-  background: -webkit-linear-gradient(90deg, #675A36, );
+  background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -76,43 +76,67 @@ h1 {
 #l2{
   position: absolute;
   z-index: 7;
-  padding-left: 360px;
+  padding-left: 360px; 
+  background: -webkit-linear-gradient(hsla(83, 13%, 34%, 1) 0%, hsla(68, 57%, 22%, 1) 33%, hsla(40, 13%, 5%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l3{
   position: absolute;
   z-index: 6;
   padding-left: 440px;
+  background: -webkit-linear-gradient(hsla(68, 57%, 22%, 1) 0%, hsla(68, 12%, 48%, 1) 49%, hsla(109, 80%, 25%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l4{
   position: absolute;
   z-index: 5;
   padding-left: 495px;
+  background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(109, 46%, 21%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l5{
   position: absolute;
   z-index: 4;
   padding-left: 560px;
+  background: -webkit-linear-gradient(hsla(111, 97%, 12%, 1) 0%, hsla(108, 4%, 74%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 #l6{
   position: absolute;
   z-index: 3;
   padding-left: 640px;
+  background: -webkit-linear-gradient(hsla(105, 14%, 11%, 1) 0%, hsla(108, 4%, 74%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l7{
   position: absolute;
   z-index: 2;
   padding-left: 710px;
+  background: -webkit-linear-gradient(hsla(105, 100%, 13%, 1) 0%, hsla(29, 17%, 39%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l8{
   position: absolute;
   z-index: 1;
   padding-left: 760px;
+  background: -webkit-linear-gradient(hsla(55, 59%, 38%, 1) 0%, hsla(107, 71%, 17%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #l9{
   position: absolute;
   z-index: 0;
   padding-left: 830px;
+  background: -webkit-linear-gradient(hsla(135, 83%, 14%, 1) 0%, hsla(0, 0%, 57%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
