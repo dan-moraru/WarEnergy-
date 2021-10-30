@@ -57,7 +57,7 @@ h1 {
 #l1{
   position: static;
   z-index: 8;
-  padding-left: 0px;
+  /*padding-left: 0px;*/
   background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
