@@ -44,6 +44,15 @@ header figure {
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FScorchedearth-4Ljp.otf?v=1635298581003);
 }
 
+@font-face{
+  font-family: test;
+  src: url();
+}
+
+h2{
+  font-family: test;
+}
+
 span{
   display: inline-block;
   border: solid 0.5px none
