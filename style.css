@@ -46,10 +46,10 @@ header figure {
 
 @font-face{
   font-family: test;
-  src: url();
+  src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FElianto-Regular.ttf?v=1635978969589);
 }
 
-h2{
+h2, a{
   font-family: test;
 }
 
