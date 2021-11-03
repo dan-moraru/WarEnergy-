@@ -78,7 +78,7 @@ div h1 {
 #l2{
   position: absolute;
   z-index: 7;
-  padding-left: 50px;
+  padding-left: 47px;
   background: -webkit-linear-gradient(hsla(83, 13%, 34%, 1) 0%, hsla(68, 57%, 22%, 1) 33%, hsla(40, 13%, 5%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -88,7 +88,7 @@ div h1 {
 #l3{
   position: absolute;
   z-index: 6;
-  padding-left: 90px;
+  padding-left: 89px;
   background: -webkit-linear-gradient(hsla(68, 57%, 22%, 1) 0%, hsla(68, 12%, 48%, 1) 49%, hsla(109, 80%, 25%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -108,7 +108,7 @@ div h1 {
 #l5{
   position: absolute;
   z-index: 4;
-  padding-left: 180px;
+  padding-left: 181px;
   background: -webkit-linear-gradient(hsla(0, 0%, 28%, 1) 0%, hsla(207, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -118,7 +118,7 @@ div h1 {
 #l6{
   position: absolute;
   z-index: 3;
-  padding-left: 220px;
+  padding-left: 222px;
   background: -webkit-linear-gradient(hsla(182, 100%, 50%, 1) 0%, hsla(291, 100%, 16%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -128,7 +128,7 @@ div h1 {
 #l7{
   position: absolute;
   z-index: 2;
-  padding-left: 260px;
+  padding-left: 258px;
   background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -138,7 +138,7 @@ div h1 {
 #l8{
   position: absolute;
   z-index: 1;
-  padding-left: 300px;
+  padding-left: 296px;
   background: -webkit-linear-gradient(hsla(143, 34%, 48%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -148,7 +148,7 @@ div h1 {
 #l9{
   position: absolute;
   z-index: 0;
-  padding-left: 340px;
+  padding-left: 332px;
   background: -webkit-linear-gradient(hsla(229, 61%, 48%, 1) 0%, black 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
