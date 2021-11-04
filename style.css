@@ -51,6 +51,7 @@ header figure {
 
 h2, a{
   font-family: test;
+  font-size: 10px;
 }
 
 span{
