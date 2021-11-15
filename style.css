@@ -1,5 +1,7 @@
 /* a minimalist set of CSS resets */
 body {
+  display: flex;
+  flex-direction: row;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
