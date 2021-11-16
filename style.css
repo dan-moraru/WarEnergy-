@@ -28,7 +28,7 @@ body{
 
 header{
   grid-column: 1 / 8;
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
   border: 2px solid blue;
   position: sticky;
 }
@@ -69,8 +69,9 @@ footer{
   position: sticky;
 }
 
-h1 {
-  font-size: 50px;
+header h1 {
+  
+  
 }
 
 h2, a{
@@ -78,25 +79,25 @@ h2, a{
   font-size: 10px;
 }
 
-.overlapped{
-  display: inline;
+.overlaped{
+  text-align: center;
+  max-width: 100px;
 }
 
 #l1{
-  position: absolute;
-  z-index: 8;
-  padding-left: 0px;
   background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: warFont;
   text-shadow: 0px 0px 100px lime;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 50px;
+  margin: 0px;
 }
 
 #l2{
-  position: absolute;
-  z-index: 7;
-  padding-left: 47px;
+
   background: -webkit-linear-gradient(hsla(83, 13%, 34%, 1) 0%, hsla(68, 57%, 22%, 1) 33%, hsla(40, 13%, 5%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,9 +105,7 @@ h2, a{
   font-family: warFont;
 }
 #l3{
-  position: absolute;
-  z-index: 6;
-  padding-left: 89px;
+
   background: -webkit-linear-gradient(hsla(68, 57%, 22%, 1) 0%, hsla(68, 12%, 48%, 1) 49%, hsla(109, 80%, 25%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -114,9 +113,7 @@ h2, a{
   font-family: warFont;
 }
 #l4{
-  position: absolute;
-  z-index: 5;
-  padding-left: 145px;
+
   background: -webkit-linear-gradient(hsla(184, 100%, 50%, 1) 0%, hsla(0, 0%, 19%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -124,9 +121,7 @@ h2, a{
   font-family: warFont;
 }
 #l5{
-  position: absolute;
-  z-index: 4;
-  padding-left: 181px;
+
   background: -webkit-linear-gradient(hsla(0, 0%, 28%, 1) 0%, hsla(207, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -134,9 +129,7 @@ h2, a{
   font-family: warFont;
 }
 #l6{
-  position: absolute;
-  z-index: 3;
-  padding-left: 222px;
+
   background: -webkit-linear-gradient(hsla(182, 100%, 50%, 1) 0%, hsla(291, 100%, 16%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -144,9 +137,7 @@ h2, a{
   font-family: warFont;
 }
 #l7{
-  position: absolute;
-  z-index: 2;
-  padding-left: 258px;
+
   background: -webkit-linear-gradient(hsla(0, 0%, 0%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -154,9 +145,7 @@ h2, a{
   font-family: warFont;
 }
 #l8{
-  position: absolute;
-  z-index: 1;
-  padding-left: 296px;
+
   background: -webkit-linear-gradient(hsla(143, 34%, 48%, 1) 0%, hsla(182, 100%, 50%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -164,9 +153,6 @@ h2, a{
   font-family: warFont;
 }
 #l9{
-  position: absolute;
-  z-index: 0;
-  padding-left: 332px;
   background: -webkit-linear-gradient(hsla(229, 61%, 48%, 1) 0%, black 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
