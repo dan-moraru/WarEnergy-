@@ -72,18 +72,19 @@ footer{
   position: sticky;
 }
 
-header h1 {
-  
-  
-}
-
 h2, a{
   font-family: word;
   font-size: 10px;
 }
 
 #logo{
-  max-width: 100px;
+  width: 25%;
+}
+
+#imageCenter{
+  width: 80%;
+  text-align: center;
+  grid-column: 1 /2;
 }
 
 #l1{
