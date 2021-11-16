@@ -2,4 +2,4 @@
     to your site with Javascript */
 
 console.log("Dan won't notice this until novemeber");
-//I noticed
+//I noticed (cap)
