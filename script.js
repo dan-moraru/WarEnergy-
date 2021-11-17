@@ -1,5 +1,4 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+/*Main JavaScript. Dan Moraru & Marko Litovchenko*/
 
 console.log("Dan won't notice this until novemeber");
 //I noticed (cap) bruh what you mean cap???
