@@ -39,7 +39,9 @@ body{
   width: 100%;
   height: 15px;
   display: block;
-  background: linear-gradient(-45deg, transparent 33.33%, lime 33.33%, );
+  background: linear-gradient(-45deg, transparent 33.33%, lime 33.33%, lime 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, lime 33.33%, lime 66.66%, transparent 66.66%);
+  background-sze: 30px 60px;
+  transform: rotate(180deg);
 }
 
 header{
