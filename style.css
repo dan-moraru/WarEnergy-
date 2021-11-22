@@ -74,11 +74,18 @@ h2, a{
   font-size: 10px;
 }
 
-#logo{
+#logoHead{
   grid-column: 8 / 10;
   grid-row: 1 / 3;
   width: 100%;
   max-width: 300px;
+}
+
+#logoFoot{
+  grid-column: 1 / 2;
+  grid-row: 15 / 17;
+  width: 100%;
+  max-width: 100px;
 }
 
 #l1{
