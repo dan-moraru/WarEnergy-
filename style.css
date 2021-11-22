@@ -69,7 +69,7 @@ footer{
   position: sticky;
 }
 
-h2, a{
+h2, a, p{
   font-family: word;
   font-size: 10px;
 }
