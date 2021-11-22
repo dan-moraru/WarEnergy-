@@ -35,6 +35,7 @@ header{
 nav{
   grid-column: 10 / 17;
   grid-row: 1 / 2;
+  /*Display: grid;*/
   border: 2px solid orange;
   vertical-align: middle;
   line-height: 50%;
@@ -59,12 +60,16 @@ main{
 }
 
 main img{
-  width: 30%;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  marginright: auto;
 }
 
 footer{
   grid-column: 1 / 17;
   grid-row: 15 / 17;
+  display: grid;
   border: 2px solid red;
   position: sticky;
 }
@@ -90,6 +95,12 @@ h2, a, p{
 
 #newsletter{
   grid-column: 15 / 17;
+  grid-row: 15 / 17;
+  width: 100%;
+}
+
+#backToTop{
+  grid-column: 3 / 5;
   grid-row: 15 / 17;
   width: 100%;
 }
