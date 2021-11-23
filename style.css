@@ -26,29 +26,17 @@ body{
 }
 
 .zigzag{
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  background: lime;
-}
-
-.zigzag:before{
-  content: '';
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  height: 15px;
-  display: block;
-  /*background: linear-gradient(-45deg, transparent 33.33%, lime 33.33%, lime 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, lime 33.33%, lime 66.66%, transparent 66.66%);*/
-  /*background-size: 30px 60px;*/
-  /*transform: rotate(180deg);*/
+  min-height: 500px;
+  grid-column: 1 / 17;
+  grid-row: 1 / 17;
+  background: linear-gradient(45deg, green 25%, transparent 25%), linear-gradient(-45deg, green 25%, transparent 25%), linear-gradient(135deg, lime 25%, transparent 25%), linear-gradient(-135deg, lime 25%, transparent 25%);
 }
 
 header{
   grid-column: 1 / 8;
   grid-row: 1 / 2;
   border: 2px solid blue;
-  position: sticky;
+  /*position: sticky;*/
 }
 
 nav{
@@ -79,7 +67,7 @@ main{
 }
 
 main img{
-  width: 50%;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   marginright: auto;
@@ -112,25 +100,20 @@ h2, a, p{
   max-width: 100px;
 }
 
-form{
-  max-width: 200%;
-}
-
 #newsletter{
   grid-column: 15 / 17;
   grid-row: 15 / 17;
   vertical-align: middle;
-  padding: 0px;
   margin: 0px;
 }
 
 #navFoot{
-  grid-column: 9 / 10;
+  grid-column: 9 / 11;
   grid-row: 15 / 17;
   width: 100%;
 }
 
-#l1{
+/*#l1{
   background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,4 +125,4 @@ form{
   width: 100%;
   display: block;
   vertical-align: middle;
-}
+}*/
