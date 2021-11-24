@@ -79,7 +79,7 @@ main{
   width: 100%;
 }
 
-#special{
+.special{
   font-family: word;
 }
 
@@ -150,13 +150,16 @@ a:active{
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
+#newsLetter p{
+
+}
 
 #navFoot{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   width: 100%;
   text-align: center;
-  margin: 0px;
+  
 }
 
 footer a{
@@ -165,6 +168,8 @@ footer a{
 
 footer p{
   font-size: 13px;
+  margin-bottom: 0px;
+  margin-top: 5%;
 }
 
 #l1{
