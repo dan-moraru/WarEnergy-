@@ -42,15 +42,19 @@ header{
 nav{
   grid-column: 10 / 17;
   grid-row: 1 / 2;
-  Display: grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   border: 2px solid orange;
   vertical-align: middle;
   line-height: 50%;
 }
 
 nav a{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   font-size: 20px;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 nav p{
@@ -69,6 +73,9 @@ main{
 
 main div{
   text-align: center;
+}
+main div h1{
+  margin: 0px;
 }
 
 main div img{

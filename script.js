@@ -1,1 +1,1 @@
-/*Main JavaScript. Dan Moraru & Marko Litovchenko*/
+/*Main JavaScript. Dan Markaru & Marko Litovchenko*/
