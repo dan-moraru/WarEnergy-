@@ -17,7 +17,7 @@ body{
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   width: 100vw;
   height: 100vh;
   margin: 0px;
@@ -35,7 +35,7 @@ body{
 header{
   grid-column: 1 / 8;
   grid-row: 1 / 2;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   /*position: sticky;*/
 }
 
@@ -45,42 +45,35 @@ nav{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  border: 2px solid orange;
+  /*border: 2px solid orange;*/
   vertical-align: middle;
   line-height: 50%;
 }
 
-nav a{
+nav p, a{
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   font-size: 20px;
-  vertical-align: middle;
-}
-
-nav p{
-  font-size: 20px;
-  text-align: center;
   width: 100%;
   height: 200%;
   vertical-align: middle; 
+  text-align: center;
 }
 
 main{
   grid-column: 1 / 17;
   grid-row: 2 / 15;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
 }
 
 main div{
   text-align: center;
-}
-main div h1{
-  margin: 0px;
+  vertical-align: bottom;
 }
 
 main div img{
   width: 50%;
-  text-align: center;
+
   margin-left: auto;
   marginright: auto;
 }
@@ -88,7 +81,7 @@ main div img{
 footer{
   grid-column: 1 / 17;
   grid-row: 15 / 17;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   position: sticky;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -108,8 +101,7 @@ h2, a, p{
 }
 
 #logoFoot{
-  width: 100%;
-  max-width: 100px;
+  width: 25%;
   grid-column: 1 / 2;
   grid-row: 1 / 1;
 }
