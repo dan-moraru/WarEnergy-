@@ -83,10 +83,6 @@ main{
   font-family: word;
 }
 
-table{
-  text-align: center;
-}
-
 main div{
   text-align: center;
   grid-column: 1 / 11;
@@ -174,11 +170,13 @@ footer p{
 
 main table *{
   border: 2px solid black;
+  text-align: center;
 }
 main table{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
+
 #l1{
   background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
