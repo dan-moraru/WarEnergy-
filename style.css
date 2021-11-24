@@ -42,7 +42,7 @@ header{
 nav{
   grid-column: 10 / 17;
   grid-row: 1 / 2;
-  /*Display: grid;*/
+  Display: grid;
   border: 2px solid orange;
   vertical-align: middle;
   line-height: 50%;
@@ -63,7 +63,7 @@ nav p{
 
 main{
   grid-column: 1 / 17;
-  grid-row: 3 / 15;
+  grid-row: 2 / 15;
   border: 2px solid green;
 }
 
@@ -83,6 +83,9 @@ footer{
   grid-row: 15 / 17;
   border: 2px solid red;
   position: sticky;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 h2, a, p{
@@ -99,20 +102,20 @@ h2, a, p{
 
 #logoFoot{
   width: 100%;
-  vertical-align: middle;
   max-width: 100px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 1;
 }
 
 #newsLetter{
   vertical-align: middle;
   width: 100%;
   text-align: center;
-  display: inline;
 }
 
 #navFoot{
-  grid-column: 9 / 10;
-  grid-row: 15 / 17;
+  grid-column: 2 / 3;
+  grid-row: 1 / 1;
   width: 100%;
   text-align: center;
   font-size: 20px;
