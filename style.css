@@ -29,7 +29,7 @@ body{
   min-height: 500px;
   grid-column: 1 / 17;
   grid-row: 1 / 17;
-  background: linear-gradient(45deg, green 25%, transparent 25%), linear-gradient(-45deg, darkgreen 25%, transparent 25%), linear-gradient(135deg, black 25%, transparent 25%), linear-gradient(-135deg, lime 25%, transparent 25%);
+  background: linear-gradient(45deg, green 25%, transparent 25%), linear-gradient(-45deg, #1E90FF 25%, transparent 25%), linear-gradient(135deg, black 25%, transparent 25%), linear-gradient(-135deg, lime 25%, transparent 25%);
 }
 
 header{
