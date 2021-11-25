@@ -174,7 +174,7 @@ main table *{
 }
 main table{
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 5 / 6;
 }
 
 #l1{
