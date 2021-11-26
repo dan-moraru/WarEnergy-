@@ -97,38 +97,44 @@ main{
   width: 100%;
   grid-column: 1 / 4;
   grid-row: 3 / 7;
-  background-color: blue;
+  background: rgb(27,246,78);
+  background: linear-gradient(0deg, rgba(27,246,78,1) 0%, rgba(0,212,253,1) 100%);
 }
 
 #orderOneUp{
   grid-column: 1 / 4;
   grid-row: 1 / 3;
-  background-color: blue;
+  background: rgb(27,246,78);
+  background: linear-gradient(180deg, rgba(27,246,78,1) 0%, rgba(0,212,253,1) 100%);
 }
 
 #orderOneDown{
   grid-column: 1 / 4;
   grid-row: 9 / 11;
-  background-color: blue;
+  background: rgb(27,246,78);
+  background: linear-gradient(180deg, rgba(27,246,78,1) 0%, rgba(0,212,253,1) 100%);
 }
 
 #orderTwo{
   width: 100%;
   grid-column: 8 / 11;
   grid-row: 3 / 7;
-  background-color: blue;
+  background: rgb(229,230,32);
+  background: linear-gradient(0deg, rgba(229,230,32,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #orderTwoUp{
   grid-column: 8 / 11;
   grid-row: 1 / 3;
-  background-color: blue;
+  background: rgb(229,230,32);
+  background: linear-gradient(180deg, rgba(229,230,32,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #orderTwoDown{
   grid-column: 8 / 11;
   grid-row: 9 / 11;
-  background-color: blue;
+  background: rgb(229,230,32);
+  background: linear-gradient(180deg, rgba(229,230,32,1) 0%, rgba(255,0,0,1) 100%);
 }
 
 #orderTwo img{
