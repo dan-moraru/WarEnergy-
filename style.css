@@ -135,6 +135,7 @@ main form{
   grid-row: 1 / 3;
   background: rgb(255,214,26);
   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+  text-align: center;
 }
 
 #orderTwoDown{
@@ -235,6 +236,7 @@ footer p{
   grid-column: 2 / 10;
   grid-row: 2 / 10;
   border: 2px solid black;
+  text-align: center;
 }
 
 td{
