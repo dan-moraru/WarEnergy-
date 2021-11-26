@@ -82,27 +82,32 @@ main{
   font-family: word;
 }
 
-main div{
+#mainDiv{
   text-align: center;
   grid-column: 1 / 11;
   grid-row: 5 / 6;
 }
 
-main div img{
+#mainImage{
   width: 50%;
   margin-right: 80px;
 }
 
 #orderOne{
   width: 100%;
+  max-width: 500px;
   grid-column: 1 / 4;
-  grid-row: 1 / 4;
+  grid-row: 2 / 5;
+  background-color: blue;
 }
 
 #orderTwo{
-  width: 100%;
   grid-column: 8 / 11;
-  grid-row: 8 / 11;
+  grid-row: 1 / 11;
+  background-color: blue;
+}
+#orderTwo img{
+  margin-right: 0px;
 }
 
 footer{
@@ -182,6 +187,11 @@ main table *{
 main table{
   grid-column: 2 / 3;
   grid-row: 5 / 6;
+}
+
+#artistTable{
+  grid-column: 2 / 9;
+  grid-row: 2 / 7;
 }
 
 main video{
