@@ -1,12 +1,16 @@
+<!--Main HTML. Dan Moraru & Marko Litovchenko-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Home</title>
     <link rel="stylesheet" href="/style.css" />
-    <!--<link rel="icon" href="https://glitch.com/favicon.ico" />-->
+    <script src="/script.js" defer></script>
   </head>
   <body>
+    <div class="zigzag"></div>
     <header>
       <h1 id="l1">War Energy</h1>
     </header>
@@ -18,9 +22,9 @@
     <nav>
       <div>
         <p>
-          <a href="inde.html">HOME</a> • 
+          <a href="index.html">HOME</a> • 
           <a href="order.html">ORDER</a> •
-          <a href="index.html">OUR RECIPE</a> •
+          <a href="recipe.html">OUR RECIPE</a> •
           <a href="aboutus.html">ABOUT US</a> •
           <a href="artistroom.html">ARTIST ROOM</a> •
           <a href="quiz.html">TAKE OUR QUIZ</a>
@@ -29,40 +33,16 @@
     </nav>
 
     <main>
-      <table>     
-        <thead>
-          <tr>
-            <th>Ingredients</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Water</td>
-            <td>500ml</td>
-          </tr>
-          <tr>
-            <td>Sugar</td>
-            <td>30g</td>
-          </tr>
-          <tr>
-            <td>Matcha</td>
-            <td>10g</td>
-          </tr>
-          <tr>
-            <td>Guarana</td>
-            <td>5g</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        Manufacturers:
-      </p>
-      <ol>
-        <li>Dale's Farm</li>
-        <li>Dale's Farm</li>
-        <li>Dale's Farm</li>
-      </ol>
+      <div>
+        <img
+          src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwarToget.png?v=1637715656902"
+          alt="energy drinks"
+        />
+        <h1 class="special">THE BEST ORGANIC ENERGY DRINK IN THE WORLD</h1>
+        <button type="submit">
+          <h1 class="special">ORDER NOW!</h1>
+        </button>
+      </div>
     </main>
 
     <footer>
@@ -73,10 +53,12 @@
       />
       <div id="navFoot">
         <p>
-          <a href="">ORDER</a> • <a href="">OUR RECIPE</a> •
-          <a href="">ABOUT US</a> • <a href="">ARTIST ROOM</a> •
-          <a href="">TAKE OUR QUIZ</a> •
-          <a href="">TO TOP</a>
+          <a href="order.html">ORDER</a> •
+          <a href="recipe.html">OUR RECIPE</a> •
+          <a href="aboutus.html">ABOUT US</a> •
+          <a href="artistroom.html">ARTIST ROOM</a> •
+          <a href="quiz.html">TAKE OUR QUIZ</a> •
+          <a href="index.html">TO TOP</a>
         </p>
       </div>
       <div id="newsLetter">
@@ -88,4 +70,28 @@
     </footer>
   </body>
 </html>
- 
+
+<!--<form>
+      <fieldset>
+        <div>
+          <legend>Login</legend>
+          <label>Username:
+            <input type="text" id="username" name="username"/>
+          </label>
+        </div>
+        <div>
+          <label>Password:
+            <input type="password" id="password" name="password"/>
+          </label>
+        </div>
+        <div>
+          <label>            
+            <input type="checkbox" id="remember-me" name="remember-me"/>
+            Remember me
+          </label>
+        </div>
+        <div>
+          <button type"submit">Submit</button>
+        </div>       
+      </fieldset>
+    </form>-->
