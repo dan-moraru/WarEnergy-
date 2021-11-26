@@ -80,7 +80,7 @@ main{
 /*put the main a class*/
 main form{
   grid-column: 4 / 8;
-  grid-row: 3 / 9;
+  grid-row: 2 / 10;
   border: solid black 2px;
   margin: 50px;
 }
