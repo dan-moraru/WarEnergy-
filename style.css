@@ -83,6 +83,7 @@ main form{
   grid-row: 2 / 10;
   border: solid black 2px;
   margin: 50px;
+  text-align: center;
 }
 .special{
   font-family: word;
