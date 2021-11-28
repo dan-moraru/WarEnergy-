@@ -275,6 +275,14 @@ main video{
   text-align: center;
 }
 
+dt{
+  font-weight: bold;
+}
+
+dd{
+  margin-bottom: 1em;
+}
+
 ol{
   grid-column: 4 / 5;
   grid-row: 5 / 6;
