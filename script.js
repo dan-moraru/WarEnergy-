@@ -2,4 +2,4 @@
 
 /*If marko sees this hes gay*/
 
-let 
+let button = document.getElementById("submitButton");
