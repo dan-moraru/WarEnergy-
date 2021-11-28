@@ -167,7 +167,7 @@ footer{
   background-color: #F5F5F5;
 }
 
-h2, a, p{
+h2, a, p, figcaption{
   font-family: word; 
 }
 
@@ -256,6 +256,7 @@ main video{
   grid-column: 4 / 10;
   grid-row: 2/ 3;
   width: 100%;
+  max-width: 1000px;
   text-align: center;
 }
 
