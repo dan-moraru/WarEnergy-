@@ -246,10 +246,6 @@ footer p{
   text-align: center;
 }
 
-td{
-  border: 2px solid black;
-}
-
 .tableImg{
   width: 100%;
   max-width: 200px;
