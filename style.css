@@ -243,7 +243,6 @@ footer p{
 #artistTable{
   grid-column: 2 / 10;
   grid-row: 2 / 10;
-  border: 2px solid black;
   text-align: center;
 }
 
