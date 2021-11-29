@@ -177,7 +177,7 @@ main{
   margin: 0px;
   width: 100%;
   display: block;
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 55px;
   color: white;
   font-family: word;
@@ -199,6 +199,12 @@ main{
   font-weight: bold;
   font-size: 25px;
  /* border-bottom: 2px solid gray;*/
+}
+.purchaseChoices{
+  /*display: inline-block;*/
+  text-align: left; 
+  margin-left: 75px;
+  width: 40%;
 }
 
 #mainOrder{

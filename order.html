@@ -62,7 +62,7 @@
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           required
         />
-        
+
         <input
           class="greenBorder"
           type="text"
@@ -71,21 +71,32 @@
           placeholder="Address"
           required
         /><br />
+        <div class="purchaseChoices">
+          <p>
+            Chose the bundle
+          </p>
+          <input
+            type="radio"
+            id="cold"
+            name="bundleType"
+            value="cold"
+            required
+          />
+          <label for="cold">Original + Sugar Free</label><br />
+          <input type="radio" id="hot" name="bundleType" value="hot" required />
+          <label for="hot">Coffee + BOOST</label><br />
+        </div>
         
-        <p>
-          Chose the bundle
-        </p>
-        <input type="radio" id="cold" name="bundleType" value="cold" required />
-        <label for="cold">Original + Sugar Free</label><br />
-        <input type="radio" id="hot" name="bundleType" value="hot" required />
-        <label for="hot">Coffee + BOOST</label><br />
-        <p>
-          Chose the quantity
-        </p>
-        <input type="radio" id="12pack" name="quantity" value="12" required />
-        <label for="12pack">12 pack</label><br />
-        <input type="radio" id="48pack" name="quantity" value="48" required />
-        <label for="48pack">48 pack</label><br />
+        <!--<img style="max-width: 400px;" src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwarOriginalPNG.png?v=1637082366715" alt="can">-->
+        <div class="purchaseChoices">
+          <p>
+            Chose the quantity
+          </p>
+          <input type="radio" id="12pack" name="quantity" value="12" required />
+          <label for="12pack">12 pack</label><br />
+          <input type="radio" id="48pack" name="quantity" value="48" required />
+          <label for="48pack">48 pack</label><br />
+        </div>
 
         <button
           class="greenBorder"
