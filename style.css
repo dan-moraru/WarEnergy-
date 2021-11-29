@@ -179,6 +179,12 @@ main{
   display: block;
   margin-top: 10%;
   font-size: 55px;
+  color: white;
+}
+.greenBorder{
+  border: 3px solid green;
+  width: 90%;
+  height: 5%;
 }
 
 footer{
