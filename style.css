@@ -206,12 +206,18 @@ main{
   margin-left: 75px;
   width: 40%;
 }
-#orderPrice{
+#orderPrices{
   border: 3px solid green;
   margin-left: 75px;
+  margin-top: 10px;
   width: 70%;
   text-align: left;
   background-color: white;
+}
+#orderPrices p{
+  padding: 5px 0px 5px 10px;
+  margin: 0px;
+  display: inline-block;
 }
 hr{
   border-right: 100px solid white;
