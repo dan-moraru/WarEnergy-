@@ -111,46 +111,12 @@ main{
   width: 100%;
   grid-column: 1 / 7;
   grid-row: 6 / 14;
-  background: hsla(144, 100%, 41%, 1);
-  background: radial-gradient(circle, hsla(144, 100%, 41%, 1) 0%, hsla(179, 96%, 40%, 1) 49%, hsla(0, 0%, 100%, 1) 82%);
-}
-
-#orderOneUp{
-  grid-column: 1 / 7;
-  grid-row: 1 / 6;
-  background: rgb(27,246,78);
-  background: linear-gradient(0deg, rgba(0,212,253,1) 0%, rgba(255,255,255,1) 100%);
-  text-align: center;
-}
-
-#orderOneDown{
-  grid-column: 1 / 6;
-  grid-row: 18 / 21;
-  background: rgb(27,246,78);
-  background: linear-gradient(180deg, rgba(27,246,78,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 #orderTwo{
   width: 100%;
-  grid-column: 16 / 21;
+  grid-column: 15 / 21;
   grid-row: 6 / 14;
-  background: rgb(255,214,26);
-  background: linear-gradient(0deg, rgba(255,214,26,1) 0%, rgba(255,0,0,1) 100%);
-}
-
-#orderTwoUp{
-  grid-column: 16 / 21;
-  grid-row: 1 / 6;
-  background: rgb(255,214,26);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
-  text-align: center;
-}
-
-#orderTwoDown{
-  grid-column: 16 / 21;
-  grid-row: 18 / 21;
-  background: rgb(255,214,26);
-  background: linear-gradient(180deg, rgba(255,214,26,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 #orderTwo img{
@@ -227,6 +193,7 @@ hr{
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
+  background-color: green;
 }
 
 #submitButton{
