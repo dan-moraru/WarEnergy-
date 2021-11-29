@@ -157,6 +157,22 @@ main form{
   margin-right: 0px;
 }
 
+#purchase{
+  text-align: center;
+  width: 90%;
+  background-color: beige;
+  grid-column: 4 / 8;
+  grid-row: 2 / 9;
+  margin: 0px;
+  margin-left: 25px;
+}
+
+#orderText{
+  grid-column: 6 / 8;
+  grid-row: 1 / 3;
+  background-color: green;
+}
+
 footer{
   grid-column: 1 / 17;
   grid-row: 15 / 17;
