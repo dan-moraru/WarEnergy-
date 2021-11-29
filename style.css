@@ -206,7 +206,17 @@ main{
   margin-left: 75px;
   width: 40%;
 }
-
+#orderPrice{
+  border: 3px solid green;
+  margin-left: 75px;
+  width: 70%;
+  text-align: left;
+  background-color: white;
+}
+hr{
+  border-right: 100px solid white;
+  border-left: 100px solid white;
+}
 #mainOrder{
   display: grid;
   grid-template-columns: repeat(20, 1fr);
