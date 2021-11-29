@@ -136,7 +136,6 @@ main{
   grid-column: 8 / 14;
   grid-row: 1 / 5;
   background-color: green;
-  height: 50%;
   margin: 0px;
 }
 
