@@ -43,9 +43,7 @@
           ORDER
         </h1>
       </div>
-      <div id="orderTextAndPurchase">
-        
-      </div>
+      <div id="orderTextAndPurchase"></div>
       <form id="purchase">
         <p>
           Chose the bundle
@@ -62,10 +60,10 @@
         <input type="radio" id="48pack" name="quantity" value="48" required />
         <label for="48pack">48 pack</label><br />
 
-        <label for="email"><p>Enter your email:</p></label>
+        <!--<label for="email"><p>Enter your email:</p></label>-->
         <input class="greenBorder" type="email" id="email" name="email" placeholder="Email" required />
-
-        <label for="address"><p>Enter your address:</p></label>
+        <input class="greenBorder" type="tel" id="phone" name="phone" placeholder="Phone number (xxx-xxx-xxxx)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+        <!--<label for="address"><p>Enter your address:</p></label>-->
         <input class="greenBorder" type="text" id="address" name="address" placeholder="Address" required /><br />
 
         <button id="submitButton" type="submit" style="margin-top: 20px;">

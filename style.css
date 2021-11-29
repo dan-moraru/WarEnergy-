@@ -159,7 +159,7 @@ main{
 
 #purchase{
   grid-column: 8 / 14;
-  grid-row: 6 / 20;
+  grid-row: 6 / 21;
   background-color: beige;
   text-align: center;
 }
@@ -184,6 +184,7 @@ main{
 }
 .greenBorder{
   border: 3px solid green;
+  margin: 10px;
   width: 70%;
   height: 5%;
 }
