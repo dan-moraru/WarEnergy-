@@ -195,12 +195,19 @@ main{
   background-color: beige;
   border-right: 50px solid green;
   border-left: 50px solid green;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 #mainOrder{
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
+}
+
+#sumbmitButton{
+  width: 80%;
 }
 
 footer{
