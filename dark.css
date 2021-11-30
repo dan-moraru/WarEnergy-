@@ -9,12 +9,12 @@
 }
 
 header{
-  background-color: #F5F5F5;
+  background-color: #2C2F33;
   /*border: 2px solid blue;*/
 }
 
 nav{
-  background-color: #F5F5F5;
+  background-color: #2C2F33;
 }
 
 /*put the main a class*/
@@ -73,7 +73,7 @@ hr{
 }
 
 footer{
-  background-color: #F5F5F5;
+  background-color: #2C2F33;
 }
 
 button{
@@ -93,7 +93,7 @@ a:hover{
 }
 
 a{
-  color: black;
+  color: white;
 }
 
 a:active{
@@ -101,12 +101,8 @@ a:active{
 }
 
 #logoHead{
-  background-color: #F5F5F5;
-  border-right: #F5F5F5 solid 50px; 
-}
-
-#recipeTable{
-  border: 2px solid black;
+  background-color: #2C2F33;
+  border-right: #2C2F33 solid 50px; 
 }
 
 #l1{
