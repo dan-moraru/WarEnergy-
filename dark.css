@@ -1,4 +1,4 @@
-/*Light CSS. Dan Moraru & Marko Litovchenko*/
+/*Dark CSS. Dan Moraru & Marko Litovchenko*/
 /*TO DO: CHANGE TO DARK COLORS HERE*/
 #zigzag{
   background: linear-gradient(45deg, rgb(0, 150, 0) 25%, transparent 25%),  linear-gradient(-135deg, rgb(0, 220, 0) 25%, transparent 25%);
@@ -90,6 +90,10 @@ button:active{
 
 a:hover{
   color: rgba(0, 255, 0, 1);
+}
+
+a{
+  color: black;
 }
 
 a:active{
