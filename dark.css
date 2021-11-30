@@ -1,11 +1,15 @@
 /*Dark CSS. Dan Moraru & Marko Litovchenko*/
 /*TO DO: CHANGE TO DARK COLORS HERE*/
 #zigzag{
-  background: linear-gradient(45deg, rgb(0, 150, 0) 25%, transparent 25%),  linear-gradient(-135deg, rgb(0, 220, 0) 25%, transparent 25%);
+  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%),  linear-gradient(-135deg, rgb(0, 150, 0) 25%, transparent 25%);
 }
 
 .zigzag{
-  background: linear-gradient(45deg, rgb(0, 200, 0) 25%, transparent 25%), linear-gradient(-45deg, rgb(0, 200, 0) 25%, transparent 25%), linear-gradient(135deg, rgb(0, 220, 0) 25%, transparent 25%), linear-gradient(-135deg, rgb(0, 220, 0) 25%, transparent 25%);
+  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-45deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(135deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-135deg, rgb(0, 130, 0) 25%, transparent 25%);
+}
+
+body{
+  background-color: #23272A;
 }
 
 header{
@@ -90,6 +94,14 @@ button:active{
 
 a:hover{
   color: rgba(0, 255, 0, 1);
+}
+
+#special{
+  color: black;
+}
+
+h1{
+  color: white;
 }
 
 a{
