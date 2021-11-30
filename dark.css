@@ -31,27 +31,27 @@ nav{
 }*/
 
 #purchase{
-  background-color: beige;
+  background-color: #d3d3d3;
 }
 
 #orderText{
-  background-color: green;
+  background-color: darkgreen;
 }
 
 #orderText h1{
   color: white;
 }
 .greenBorder{
-  border: 3px solid green;
+  border: 3px solid darkgreen;
 }
 
 #orderTextAndPurchase{
-  background-color: beige;
-  border-right: 50px solid green;
-  border-left: 50px solid green;
+  background-color: #d3d3d3;
+  border-right: 50px solid darkgreen;
+  border-left: 50px solid darkgreen;
 }
 #orderPrices{
-  border: 3px solid green;
+  border: 3px solid darkgreen;
   background-color: white;
 }
 
@@ -60,13 +60,21 @@ hr{
   border-left: 100px solid white;
 }
 #mainOrder{
-  background: hsla(60, 3%, 24%, 1);
-  background: radial-gradient(circle, hsla(60, 3%, 24%, 1) 0%, hsla(213, 26%, 32%, 1) 100%);
+  background: hsla(210, 6%, 20%, 1);
+  background: radial-gradient(circle, hsla(210, 6%, 20%, 1) 0%, hsla(125, 64%, 29%, 1) 100%);
 }
 
 #submitButton{
   color: white;
-  background-color: green;
+  background-color: darkgreen;
+}
+
+#specific{
+  color: black;
+}
+
+main form p{
+  color: black;
 }
 
 #submitButton:hover{
@@ -100,7 +108,11 @@ a:hover{
   color: black;
 }
 
-a, h1, p{
+h2{
+  color: green;
+}
+
+a, h1, p, td, li{
   color: white;
 }
 
