@@ -81,7 +81,7 @@ footer{
 }
 
 button{
-  background-color: #F5F5F5;
+  background-color: #d3d3d3;
 }
 
 button:hover{
@@ -96,15 +96,11 @@ a:hover{
   color: rgba(0, 255, 0, 1);
 }
 
-#special{
+#insideButton{
   color: black;
 }
 
-h1{
-  color: white;
-}
-
-a{
+a, h1, p{
   color: white;
 }
 

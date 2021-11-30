@@ -90,6 +90,10 @@ main{
   font-family: word;
 }
 
+.special{
+  font-family: word;
+}
+
 #mainDiv{
   text-align: center;
   grid-column: 1 / 11;
