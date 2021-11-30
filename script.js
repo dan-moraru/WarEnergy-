@@ -2,8 +2,14 @@
 
 /*If marko sees this hes gay*/
 
-let button = document.getElementById("submitButton");
+let newsLetter = document.getElementById("email");
 
-button.addEventListener("click", function(){
-  alert()
+let orderButton = document.getElementById("insideButton");
+
+newsLetter.addEventListener("click", function(){
+  alert("Thank you for Subscribing!");
+})
+
+orderButton.addEventListener("click", function(){
+  window.location.replace("order.html");
 })
