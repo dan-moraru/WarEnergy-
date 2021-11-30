@@ -330,11 +330,12 @@ footer p{
 
 main video{
   grid-column: 1 / 6;
-  grid-row: 2 / 6;
+  grid-row: 3 / 6;
   width: 100%;
   max-width: 1000px;
   text-align: center;
   padding-left: 20px;
+  border-radius: 50px;
 }
 
 .righty{
