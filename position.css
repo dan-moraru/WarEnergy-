@@ -244,6 +244,15 @@ button{
   grid-row: 2 / 3;
 }
 
+#switch{
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+}
+
 #navFoot{
   grid-column: 2 / 3;
   grid-row: 2 / 3;
