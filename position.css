@@ -107,10 +107,15 @@ main{
   margin-right: 80px;
 }
 
-#recipeImg{
-  width: 75%;
+#recipeFig{
+  width: 100%;
   grid-column: 1 / 6;
-  grid-row: 1 / 3;
+  grid-row: 2 / 9;
+}
+
+#recipeImg{
+  width: 100%;
+  border-radius: 50px;
 }
 
 #orderOne{
