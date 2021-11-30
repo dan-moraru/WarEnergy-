@@ -59,6 +59,7 @@ hr{
   border-right: 100px solid white;
   border-left: 100px solid white;
 }
+
 #mainOrder{
   background: hsla(210, 6%, 20%, 1);
   background: radial-gradient(circle, hsla(210, 6%, 20%, 1) 0%, hsla(125, 64%, 29%, 1) 100%);
@@ -67,6 +68,10 @@ hr{
 #submitButton{
   color: white;
   background-color: darkgreen;
+}
+
+.centerTop{
+  color: rgb(0, 177, 0);
 }
 
 #specific{
@@ -108,11 +113,11 @@ a:hover{
   color: black;
 }
 
-h2{
-  color: green;
+.greenTitle{
+  color: rgb(0, 177, 0);
 }
 
-a, h1, p, td, li{
+a, h1, p, td, li, dd{
   color: white;
 }
 
