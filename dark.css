@@ -117,7 +117,7 @@ a:hover{
   color: rgb(0, 177, 0);
 }
 
-a, h1, p, td, li, dd{
+a, h1, p, td, li, dd, figcaption{
   color: white;
 }
 
