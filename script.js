@@ -36,3 +36,6 @@ themeButton.addEventListener("click", function(){
 
 })
 
+let div1 = document.getElementById("")
+
+

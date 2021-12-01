@@ -78,6 +78,7 @@ main{
   grid-template-rows: repeat(10, 1fr);
   width: 100%;
 }
+
 /*put the main a class*/
 /*main form{
   grid-column: 4 / 8;
