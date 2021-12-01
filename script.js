@@ -1,9 +1,5 @@
 /*Main JavaScript. Dan Markaru & Marko Litovchenko*/
 
-let link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/dark.css';
-    document.head.appendChild(link);
 
 let newsLetter = document.getElementById("email");
 let logo = document.getElementById("logoHead");
@@ -23,6 +19,6 @@ orderButton.addEventListener("click", function(){
 
 themeButton.addEventListener("click", function(){
   themeLink.href = "/light.css";
-  
+  logo.src = "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwebLogoWhitePNG.png?v=1638310524846";
 })
 
