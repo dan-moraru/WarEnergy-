@@ -6,7 +6,7 @@ let link = document.createElement('link');
     document.head.appendChild(link);
 
 let newsLetter = document.getElementById("email");
-
+let logo = document.getElementById("logoHead");
 let orderButton = document.getElementById("insideButton");
 let switchThemes = document.getElementById("switch");
 
@@ -23,5 +23,6 @@ orderButton.addEventListener("click", function(){
 
 themeButton.addEventListener("click", function(){
   themeLink.href = "/light.css";
+  
 })
 
