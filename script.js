@@ -17,8 +17,7 @@ newsLetter.addEventListener("click", function(){
 orderButton.addEventListener("click", function(){
   window.location.replace("order.html");
 })
-
-themeButton.onclick = function() {
-    themeLink.href = "/light.css";
-};
+themeButton.addEventListener("click", function(){
+  themeLink.setAttribute("href", "/light.css");
+})
 
