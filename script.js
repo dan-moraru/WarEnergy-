@@ -18,6 +18,13 @@ orderButton.addEventListener("click", function(){
   window.location.replace("order.html");
 })
 themeButton.addEventListener("click", function(){
+  if (themeLink.getAttribute("href") == "/dark.css"){
+    themeLink.setAttribute("href", "/light.css");
+  }else if (themeLink.getAttribute("href") == "/dark.css"){
+    themeLink.setAttribute("href", "/light.css");
+  }
+  /*console.log(themeLink.getAttribute("href", "/dark.css"));
   themeLink.setAttribute("href", "/light.css");
+  console.log(themeLink.getAttribute("href", "/dark.css"));*/
 })
 
