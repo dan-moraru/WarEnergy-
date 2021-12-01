@@ -1,9 +1,6 @@
 /*Main JavaScript. Dan Markaru & Marko Litovchenko*/
 
-let link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = '/dark.css';
-    document.head.appendChild(link);
+
 
 let newsLetter = document.getElementById("email");
 let logo = document.getElementById("logoHead");
@@ -21,7 +18,7 @@ orderButton.addEventListener("click", function(){
   window.location.replace("order.html");
 })
 
-themeButton.addEventListener("click", function(){
+themeButton.addEventListener("click", () =>{
   themeLink.href = "/light.css";
   
 })
