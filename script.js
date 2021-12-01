@@ -1,5 +1,10 @@
 /*Main JavaScript. Dan Markaru & Marko Litovchenko*/
 
+let link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = '/dark.css';
+    document.head.appendChild(link);
+
 let newsLetter = document.getElementById("email");
 
 let orderButton = document.getElementById("insideButton");
@@ -17,7 +22,6 @@ orderButton.addEventListener("click", function(){
 })
 
 themeButton.addEventListener("click", function(){
-  themeLink.href = "/dark.css";
-
+  themeLink.href = "/light.css";
 })
 
