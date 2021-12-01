@@ -4,7 +4,6 @@
 let newsLetter = document.getElementById("email");
 let logo = document.getElementById("logoHead");
 let orderButton = document.getElementById("insideButton");
-let switchThemes = document.getElementById("switch");
 
 let themeButton = document.getElementById("switch");
 let themeLink = document.getElementsByTagName("link")[2];
