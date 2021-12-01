@@ -18,3 +18,7 @@ orderButton.addEventListener("click", function(){
   window.location.replace("order.html");
 })
 
+themeButton.onclick = function() {
+    themeLink.href = "/light.css";
+};
+

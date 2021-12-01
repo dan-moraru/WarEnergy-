@@ -243,14 +243,19 @@ button{
   grid-column: 5 / 5;
   grid-row: 2 / 3;
 }
-
 #switch{
+  width: 50%;
+  heigth: 50%;
+  grid-column: 2 / 2;
+  grid-row: 2 / 3;
+}
+
+#switch img{
   vertical-align: middle;
   width: 100%;
   max-width: 70px;
   text-align: center;
-  grid-column: 2 / 2;
-  grid-row: 2 / 3;
+  
 }
 
 #navFoot{
