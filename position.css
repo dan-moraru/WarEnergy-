@@ -1,19 +1,19 @@
 /*Main CSS. Dan Moraru & Marko Litovchenko*/
-html{ 
-  height: 100%; 
+html {
+  height: 100%;
 }
 
-@font-face{
+@font-face {
   font-family: warFont;
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FScorchedearth-4Ljp.otf?v=1635298581003);
 }
 
-@font-face{
+@font-face {
   font-family: word;
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FElianto-Regular.ttf?v=1635978969589);
 }
 
-body{
+body {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
@@ -30,20 +30,20 @@ body{
   grid-row: 1 / 17;
 }*/
 
-.zigzag{
+.zigzag {
   min-height: 500px;
   grid-column: 1 / 17;
   grid-row: 1 / 17;
 }
 
-header{
+header {
   grid-column: 1 / 7;
   grid-row: 1 / 3;
   text-align: center;
   position: sticky;
 }
 
-nav{
+nav {
   grid-column: 10 / 17;
   grid-row: 1 / 3;
   display: grid;
@@ -53,24 +53,24 @@ nav{
   line-height: 50%;
   position: sticky;
 }
-nav div{
+nav div {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
-nav p{
+nav p {
   font-size: 17px;
   text-align: center;
 }
 
-nav a{
+nav a {
   font-size: 17px;
   width: 100%;
   height: 200%;
-  vertical-align: middle; 
+  vertical-align: middle;
   text-align: center;
 }
 
-main{
+main {
   grid-column: 1 / 17;
   grid-row: 3 / 15;
   display: grid;
@@ -87,65 +87,65 @@ main{
   margin: 50px;
   text-align: center;
 }*/
-#insideButton{
+#insideButton {
   font-family: word;
 }
 
-.special{
+.special {
   font-family: word;
 }
 
-#mainDiv{
+#mainDiv {
   text-align: center;
   grid-column: 1 / 11;
   grid-row: 5 / 6;
 }
 
-#mainImage{
+#mainImage {
   width: 50%;
   margin-right: 80px;
 }
 
-#recipeFig{
+#recipeFig {
   width: 95%;
   grid-column: 1 / 6;
   grid-row: 2 / 5;
 }
 
-#recipeImg{
+#recipeImg {
   width: 100%;
   border-radius: 50px;
 }
 
-#orderOne{
+#orderOne {
   width: 100%;
   grid-column: 1 / 7;
   grid-row: 4 / 14;
 }
 
-#orderTwo{
+#orderTwo {
   width: 100%;
   grid-column: 15 / 21;
   grid-row: 4 / 14;
 }
 
-#orderTwo img{
+#orderTwo img {
   margin-right: 0px;
 }
 
-#purchase{
+#purchase {
   grid-column: 8 / 14;
   grid-row: 6 / 21;
   text-align: center;
 }
 
-#orderText{
+#orderText {
   grid-column: 8 / 14;
   grid-row: 1 / 5;
   margin: 0px;
 }
 
-#orderText h1{
+#orderText h1 {
   text-align: center;
   margin: 0px;
   width: 100%;
@@ -154,43 +154,43 @@ main{
   font-size: 55px;
   font-family: word;
 }
-.greenBorder{
+.greenBorder {
   margin: 10px;
   width: 70%;
   height: 5%;
 }
 
-#orderTextAndPurchase{
+#orderTextAndPurchase {
   grid-column: 8 / 14;
   grid-row: 4 / 6;
   text-align: center;
   font-weight: bold;
   font-size: 25px;
 }
-.purchaseChoices{
+.purchaseChoices {
   /*display: inline-block;*/
-  text-align: left; 
+  text-align: left;
   margin-left: 75px;
   width: 40%;
 }
-#orderPrices{
+#orderPrices {
   margin-left: 75px;
   margin-top: 10px;
   width: 70%;
   text-align: left;
 }
-#orderPrices p{
+#orderPrices p {
   padding: 5px 0px 5px 10px;
   margin: 0px;
   display: inline-block;
 }
-#mainOrder{
+#mainOrder {
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
 }
 
-#submitButton{
+#submitButton {
   width: 72%;
   text-align: center;
   padding: 15px 0px 35px 0px;
@@ -198,7 +198,7 @@ main{
   font-size: 20px;
 }
 
-footer{
+footer {
   grid-column: 1 / 17;
   grid-row: 15 / 17;
   position: sticky;
@@ -207,22 +207,25 @@ footer{
   grid-template-rows: repeat(3, 1fr);
 }
 
-h2, a, p, figcaption{
-  font-family: word; 
+h2,
+a,
+p,
+figcaption {
+  font-family: word;
 }
 
-.centerTop{
+.centerTop {
   text-align: center;
   grid-column: 5 / 7;
   grid-row: 1 / 3;
   font-size: 30px;
 }
 
-button{
+button {
   padding: 20px 50px 20px 50px;
 }
 
-#logoHead{
+#logoHead {
   grid-column: 7 / 10;
   grid-row: 1 / 3;
   width: 70%;
@@ -231,13 +234,13 @@ button{
   padding-left: 100px;
 }
 
-#logoFoot{
+#logoFoot {
   width: 40%;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
-#newsLetter{
+#newsLetter {
   vertical-align: middle;
   width: 100%;
   text-align: center;
@@ -245,57 +248,56 @@ button{
   grid-row: 2 / 3;
 }
 
-#switchDiv{
+#switchDiv {
   width: 70%;
   grid-row: 2 / 3;
   grid-column: 2 / 3;
   text-align: center;
 }
 
-#switch{
+#switch {
   vertical-align: middle;
   width: 100%;
   max-width: 70px;
   text-align: center;
-  
 }
 
-#navFoot{
+#navFoot {
   grid-column: 3 / 5;
   grid-row: 2 / 3;
   width: 100%;
   text-align: center;
 }
 
-footer a{
+footer a {
   font-size: 13px;
 }
 
-footer p{
+footer p {
   font-size: 13px;
   margin-bottom: 0px;
   margin-top: 5%;
 }
 
-#recipeTable{
+#recipeTable {
   text-align: center;
   grid-column: 2 / 3;
   grid-row: 5 / 6;
 }
 
-#artistTable{
+#artistTable {
   grid-column: 2 / 10;
   grid-row: 2 / 10;
   text-align: center;
 }
 
-.tableImg{
+.tableImg {
   width: 100%;
   max-width: 200px;
   text-align: center;
 }
 
-main video{
+main video {
   grid-column: 1 / 6;
   grid-row: 2 / 6;
   width: 100%;
@@ -305,25 +307,25 @@ main video{
   border-radius: 30px;
 }
 
-.righty{
+.righty {
   grid-column: 8 / 10;
   grid-row: 2 / 9;
 }
 
-dt{
+dt {
   font-weight: bold;
 }
 
-dd{
+dd {
   margin-bottom: 1em;
 }
 
-ol{
+ol {
   grid-column: 4 / 5;
   grid-row: 5 / 6;
 }
 
-#l1{
+#l1 {
   font-family: warFont;
   font-size: 45px;
   padding: 0px;
@@ -332,18 +334,18 @@ ol{
   display: block;
 }
 
-#quizMain{
-  display:grid;
+#quizMain {
+  display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
 }
 
-#quizMain form{
+#quizMain form {
   grid-column: 7 / 15;
   grid-row: 7 / 13;
 }
 
-#quizStart{
+#quizStart {
   grid-column: 4 / 8;
   grid-row: 5 / 6;
   border-radius: 20px;
@@ -351,13 +353,13 @@ ol{
   vertical-align: middle;
 }
 
-#quizStart h2{
+#quizStart h2 {
   grid-column: 1 / 8;
-  grid-row: 1 / 2 ;
+  grid-row: 1 / 2;
   margin: 30px;
 }
 
-#quizStart p{
+#quizStart p {
   grid-column: 2 / 3;
   grid-row: 7 / 8;
   margin: 10px;
@@ -367,21 +369,21 @@ ol{
   border: black solid 3px;
 }
 
-.question{
+.question {
   grid-column: 10 / 20;
   grid-row: 7 / 9;
   border: solid black 2px;
   text-align: center;
 }
 
-.topLeft{
+.topLeft {
   grid-column: 4 / 6;
   grid-row: 7 / 9;
   display: block;
   border: solid black 2px;
 }
 
-.topRight{
+.topRight {
   grid-column: 9 / 15;
   grid-row: 7 / 9;
   padding-left: 500px;
@@ -390,14 +392,14 @@ ol{
   border: solid black 2px;
 }
 
-.bottomLeft{
+.bottomLeft {
   grid-column: 4 / 6;
   grid-row: 11 / 16;
   display: block;
   border: solid black 2px;
 }
 
-.bottomRight{
+.bottomRight {
   grid-column: 9 / 15;
   grid-row: 11 / 16;
   padding-left: 500px;
@@ -406,4 +408,6 @@ ol{
   border: solid black 2px;
 }
 
-
+label{
+  font-family: word;
+}
