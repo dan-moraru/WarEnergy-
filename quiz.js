@@ -38,7 +38,6 @@ q4.addEventListener("click", function(){
   div4.style.display = "block";
 })
 
-//do the question
 /*let input = document.getElementByid("input1");
 let inputValue = input.getAttribute("value");
 let total = 0;
