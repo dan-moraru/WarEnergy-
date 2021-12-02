@@ -8,8 +8,8 @@ let question2 = document.getElementById("topRightQuestion");
 let question3 = document.getElementById("bottomLeftQuestion");
 let question4 = document.getElementById("bottomRightQuestion");
 
-firstQuizPage.setActive(true);
-secondQuizPage.setActive(false);
+firstQuizPage.style.display = "block";
+secondQuizPage.style.display = "none";
 /*question3.style.display = "none";
 question4.style.display = "none";*/
 
