@@ -397,6 +397,7 @@ ol {
 .question{
   grid-column: 2 / 6;
   grid-row: 4 / 5;
+  text-align: center;
 }
 
 .topLeftQuestionStyle{
@@ -405,7 +406,7 @@ ol {
   text-align: center;
   padding: 10px;
 }
-.topLeftQuestionStyle input{
+#topLeftQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fcloudy%20weather.jpg?v=1638468051184");
   background-size: 330px;
 }
@@ -415,7 +416,7 @@ ol {
   grid-row: 5 / 6;
   padding: 10px;
 }
-.topRightQuestionStyle input{
+#topRightQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Frainy%20day.jfif?v=1638467576054");
   background-size: 500px;
 }
@@ -426,7 +427,7 @@ ol {
   padding: 10px;
 }
 
-.bottomLeftQuestionStyle input{
+#bottomLeftQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.PNG?v=1638467395935");
   background-size: 350px;
   /*background-repeat: no-repeat;*/
@@ -437,10 +438,15 @@ ol {
   grid-row: 6 / 7;
   padding: 10px;
 }
-#bottomRightQuestion input{
+#bottomRightQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsnowy%20weather.jpg?v=1638465769646");
 }
-
+.quizInputStyle:hover{
+  border: 5px solid lime;
+}
+.quizInputStyle:active{
+  border: 5px solid rgb(0, 120, 0);
+}
 .quizInputStyle[value]{
   font-size: 30px;
   color: white;
