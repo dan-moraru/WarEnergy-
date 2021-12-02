@@ -334,8 +334,13 @@ ol{
 
 #quizMain{
   display:grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+#quizMain form{
+  grid-column: 7 / 15;
+  grid-row: 7 / 13;
 }
 
 #quizStart{
@@ -362,8 +367,31 @@ ol{
   border: black solid 3px;
 }
 
-.questions{
-  grid-column: 5 / 10;
-  grid-row: 5 / 10;
+.question{
+  grid-column: 10 / 20;
+  grid-row: 10 / 20;
   border: solid black 2px;
+  text-align: center;
 }
+
+.topLeft{
+  grid-column: 4 / 6;
+  grid-row: 7 / 9;
+}
+
+.topRight{
+  grid-column: 9 / 15;
+  grid-row: 7 / 9;
+}
+
+.bottomLeft{
+  grid-column: 4 / 6;
+  grid-row: 11 / 16;
+}
+
+.bottomRight{
+  grid-column: 9 / 15;
+  grid-row: 11 / 16;
+}
+
+
