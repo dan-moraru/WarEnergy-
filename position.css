@@ -332,26 +332,32 @@ ol{
   display: block;
 }
 
-#centerStart{
-  grid-column: 5 / 6;
-  grid-row: 5 / 6;
-}
-
 #quizStart{
-  display: grid;
-  grid-template-column: repeat(11, 1fr);
-  grid-template-row: repeat(11, 1fr);
   grid-column: 4 / 8;
-  grid-row: 2 / 10;
-  border: 2px solid black;
+  grid-row: 5 / 6;
   border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #quizStart h2{
-  grid-column: 3/11;
+  grid-column: 1/8;
   grid-row: 1/2;
+  margin: 30px;
 }
 #quizStart p{
-  grid-column: 6/8;
-  grid-row: 11/12;
+  grid-column: 2/3;
+  grid-row: 7/8;
+  margin: 10px;
+  font-size: 30px;
+  display: inline;
+}
+
+#quizStart p:hover{
+  color: lime;
+  border: green solid 3px;
+}
+
+#quizStart p:active{
+  color: green;
 }
