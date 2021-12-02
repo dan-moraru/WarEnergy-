@@ -1,52 +1,71 @@
 let firstQuizPage = document.getElementById("firstQuizPage");
 let secondQuizPage = document.getElementById("secondQuizPage");
-/*let div3 = document.getElementById("div3");
-let div4 = document.getElementById("div4");*/
-let resultPoints = 0;
+let thirdQuizPage = document.getElementById("thirdQuizPage");
+
 let choice1q1 = document.getElementById("topLeftQuestion1");
 let choice2q1 = document.getElementById("topRightQuestion1");
 let choice3q1 = document.getElementById("bottomLeftQuestion1");
 let choice4q1 = document.getElementById("bottomRightQuestion1");
 
-let choice1 = document.getElementById("topLeftQuestion1");
-let choice2 = document.getElementById("topRightQuestion1");
-let choice3 = document.getElementById("bottomLeftQuestion1");
-let choice4 = document.getElementById("bottomRightQuestion1");
+let choice1q2 = document.getElementById("topLeftQuestion2");
+let choice2q2 = document.getElementById("topRightQuestion2");
+let choice3q2 = document.getElementById("bottomLeftQuestion2");
+let choice4q2 = document.getElementById("bottomRightQuestion2");
 
-
+let resultPoints = 0;
 
 firstQuizPage.style.display = "";
 secondQuizPage.style.display = "none";
-/*question3.style.display = "none";
-question4.style.display = "none";*/
-
+thirdQuizPage.style.display = "none";
+//Question 1
 choice1q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
   resultPoints += 10;
-  /*div3.style.display = "none";
-  div4.style.display = "none";*/
+
 })
 choice2q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 15;
-  /*div3.style.display = "none";
-  div4.style.display = "none";*/
+  resultPoints+= 20;
+
 })
 choice3q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 20;
-  /*div3.style.display = "none";
-  div4.style.display = "none";*/
+  resultPoints+= 30;
+
 })
 choice4q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 25;
-  /*div3.style.display = "none";
-  div4.style.display = "none";*/
+  resultPoints+= 40;
+
+})
+//Question 2
+choice1q2.addEventListener("click", function(){
+  secondQuizPage.style.display = "none";
+  thirdQuizPage.style.display = "";
+  resultPoints += 10;
+
+})
+choice2q2.addEventListener("click", function(){
+  secondQuizPage.style.display = "none";
+  thirdQuizPage.style.display = "";
+  resultPoints+= 20;
+
+})
+choice3q2.addEventListener("click", function(){
+  secondQuizPage.style.display = "none";
+  thirdQuizPage.style.display = "";
+  resultPoints+= 30;
+
+})
+choice4q2.addEventListener("click", function(){
+  secondQuizPage.style.display = "none";
+  thirdQuizPage.style.display = "";
+  resultPoints+= 40;
+
 })
 /*question3.addEventListener("click", function(){
   div1.style.display = "none";
