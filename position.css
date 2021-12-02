@@ -339,11 +339,19 @@ ol{
 
 #quizStart{
   display: grid;
-  grid-template-column: repeat(20, 1fr);
-  grid-template-row: repeat(20, 1fr);
+  grid-template-column: repeat(11, 1fr);
+  grid-template-row: repeat(11, 1fr);
   grid-column: 4 / 8;
   grid-row: 2 / 10;
   border: 2px solid black;
   border-radius: 20px;
-  text-align: center;
+}
+
+#quizStart h2{
+  grid-column: 3/11;
+  grid-row: 1/2;
+}
+#quizStart p{
+  grid-column: 6/8;
+  grid-row: 11/12;
 }

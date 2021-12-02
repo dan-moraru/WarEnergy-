@@ -8,7 +8,7 @@ let q2 = document.getElementById("q2");
 let q3 = document.getElementById("q3");
 let q4 = document.getElementById("q4");
 
-div1.style.display = "none";
+/*div1.style.display = "none";
 div2.style.display = "none";
 div3.style.display = "none";
 div4.style.display = "none";
@@ -36,7 +36,7 @@ q4.addEventListener("click", function(){
   div2.style.display = "none";
   div3.style.display = "none";
   div4.style.display = "block";
-})
+})*/
 
 /*let input = document.getElementByid("input1");
 let inputValue = input.getAttribute("value");
