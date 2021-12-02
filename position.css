@@ -332,6 +332,12 @@ ol{
   display: block;
 }
 
+#quizMain{
+  display:grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
 #quizStart{
   grid-column: 4 / 8;
   grid-row: 5 / 6;
@@ -356,14 +362,8 @@ ol{
   border: black solid 3px;
 }
 
-#quizForm{
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-}
-
 .questions{
-  grid-column: 2 / 20;
-  grid-row: 2 / 20;
+  grid-column: 5 / 10;
+  grid-row: 5 / 10;
   border: solid black 2px;
 }
