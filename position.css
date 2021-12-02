@@ -334,16 +334,11 @@ ol {
   display: block;
 }
 
-#quizMain {
+/*#quizMain {
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   grid-template-rows: repeat(20, 1fr);
-}
-
-#quizMain form {
-  grid-column: 7 / 15;
-  grid-row: 7 / 13;
-}
+}*/
 
 #quizStart {
   grid-column: 4 / 8;
@@ -368,10 +363,18 @@ ol {
   padding: 10px;
   border: black solid 3px;
 }
-
-question1Container{
-  grid-column: 10 / 20;
-  grid-row: 7 / 9;
+#quizMain form{
+  display: block;
+  grid-column: 4 / 8;
+  grid-row: 6 / 11;
+  width: 100%;
+  display: grid;
+  grid-template-column: repeat(10, 1fr);
+  grid-template-row: repeat(10, 1fr);
+}
+.questionContainer{
+  grid-column: 7 / 14;
+  grid-row: 4 / 9;
   border: solid black 2px;
 }
 
