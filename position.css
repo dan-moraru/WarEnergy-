@@ -351,13 +351,6 @@ ol{
   margin: 10px;
   font-size: 30px;
   display: inline;
-}
-
-#quizStart p:hover{
-  color: lime;
-  border: green solid 3px;
-}
-
-#quizStart p:active{
-  color: green;
+  padding: 10px;
+  border: black solid 3px;
 }
