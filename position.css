@@ -333,8 +333,8 @@ ol{
 }
 
 #centerStart{
-  grid-column: 10 / 11;
-  grid-row: 10 / 11;
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
 }
 
 #quizStart{
@@ -344,4 +344,6 @@ ol{
   grid-column: 4 / 8;
   grid-row: 2 / 10;
   border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
 }
