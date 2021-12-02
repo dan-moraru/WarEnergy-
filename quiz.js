@@ -10,26 +10,39 @@ let question4 = document.getElementById("bottomRightQuestion");
 
 
 
-
+firstQuizPage.style.display = "";
 secondQuizPage.style.display = "none";
 /*question3.style.display = "none";
 question4.style.display = "none";*/
 
 question1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
-  secondQuizPage.style.display = "block";
+  secondQuizPage.style.display = "";
   resultPoints += 10;
   /*div3.style.display = "none";
   div4.style.display = "none";*/
 })
 question2.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
-  secondQuizPage.style.display = "block";
+  secondQuizPage.style.display = "";
+  resultPoints+= 15;
+  /*div3.style.display = "none";
+  div4.style.display = "none";*/
+})
+question3.addEventListener("click", function(){
+  firstQuizPage.style.display = "none";
+  secondQuizPage.style.display = "";
   resultPoints+= 20;
   /*div3.style.display = "none";
   div4.style.display = "none";*/
 })
-console.log(resultPoints);
+question4.addEventListener("click", function(){
+  firstQuizPage.style.display = "none";
+  secondQuizPage.style.display = "";
+  resultPoints+= 25;
+  /*div3.style.display = "none";
+  div4.style.display = "none";*/
+})
 /*question3.addEventListener("click", function(){
   div1.style.display = "none";
   div2.style.display = "none";
