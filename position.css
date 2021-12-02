@@ -492,7 +492,7 @@ ol {
   background-size: 320px;
 }
 #topRightQuestion3 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fnoon.PNG?v=1638470694509");
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fnoon.PNG?v=1638472032069");
   background-size: 340px;
 }
 #topLeftQuestion3 input{
@@ -512,9 +512,9 @@ ol {
   border-radius: 20px;
 }
 
-.quizInputStyle[value]{
+.quizInputStyle2[value]{
   font-size: 30px;
-  color: green;
+  color: white;
   font-weight: bold;
   font-family: word;
 }
