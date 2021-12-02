@@ -419,9 +419,15 @@ ol {
 }
 
 .bottomLeftQuestionStyle input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.jpg?v=1638466746301");
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.PNG?v=1638467395935");
+  background-size: 300px;
+  /*background-repeat: no-repeat;*/
 }
-
+.bottomLeftQuestionStyle input[value]{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
 .bottomRightQuestionStyle{
   grid-column: 4 / 7;
   grid-row: 6 / 7;
