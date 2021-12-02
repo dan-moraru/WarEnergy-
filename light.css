@@ -56,8 +56,8 @@ hr{
   border-left: 100px solid white;
 }
 #mainOrder{
-  background: hsla(40, 100%, 54%, 1);
-  background: radial-gradient(circle, hsla(40, 100%, 54%, 1) 0%, hsla(90, 100%, 99%, 1) 100%);
+  background: hsla(0, 0%, 100%, 1);
+  background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 32%, 1) 100%);
 }
 
 #submitButton{
