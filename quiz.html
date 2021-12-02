@@ -43,14 +43,16 @@
       <div id="q3" style="background-color: green; grid-column: 5 / 7; grid-row: 6 / 8"></div>
       <div id="q4" style="background-color: yellow; grid-column: 5 / 7; grid-row: 8 / 10"></div>-->
       
-      <1<div id="quizStart">
+      <!--<div id="quizStart">
         <h2 class="white">Take our quiz to determine what flavour you are!</h2>
         <p>Start</p>       
-      </div>
+      </div>-->
       
-      <form ACTION="https://sonic.dawsoncollege.qc.ca/~sam/lab8/suggestion.php" METHOD="post">
+      <form id="quizForm" ACTION="https://sonic.dawsoncollege.qc.ca/~sam/lab8/suggestion.php" METHOD="post">
         
-        <!--<h2>What kind of weather do you prefer?</h2>
+        <div class="questions">
+        
+        <h2>What kind of weather do you prefer?</h2>
         <label>Sunny Day</label>
         <input type="radio" id="weather" name="weather" value="" />
         
@@ -63,7 +65,9 @@
         <label>Snowy Day</label>
         <input type="radio" id="weather" name="weather" value="" />
         
-        <h2>What is your favorite color?</h2>
+        </div>
+        
+        <!--<h2>What is your favorite color?</h2>
         <label>Red</label>
         <input type="radio" id="color" name="color" value="" />
         
