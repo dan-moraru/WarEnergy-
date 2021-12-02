@@ -363,14 +363,12 @@ ol {
   padding: 10px;
   border: black solid 3px;
 }
-#quizMain form{
-  display: block;
-  grid-column: 4 / 8;
-  grid-row: 6 / 11;
+#quizForm{
   width: 100%;
-  display: grid;
-  grid-template-column: repeat(10, 1fr);
-  grid-template-row: repeat(10, 1fr);
+  height: 100%;
+  text-align: center;
+  grid-column: 4 / 8;
+  grid-row: 5 / 10;
 }
 .questionContainer{
   grid-column: 7 / 14;
