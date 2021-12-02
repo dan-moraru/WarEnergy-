@@ -37,3 +37,18 @@ q4.addEventListener("click", function(){
   div3.style.display = "none";
   div4.style.display = "block";
 })
+
+//do the question
+/*let input = document.getElementByid("input1");
+let inputValue = input.getAttribute("value");
+let total = 0;
+input.addEventListener("click", function(){
+  total += inputValue;
+})
+img = document... 
+img.setAttribute("src", "");
+
+if (total > 0 && total <= 15){
+  alert("you are...")
+  img.setAttribute("src", "url");
+}else if()*/
