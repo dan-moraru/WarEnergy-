@@ -445,8 +445,8 @@ ol {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  
 }
+
 .quizInputStyle:hover{
   background-color: rgb(20, 250, 40);;
 }
@@ -484,12 +484,12 @@ ol {
 }
 
 #bottomRightQuestion3 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fmidnight.PNG?v=1638470817163");
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fmidnight.PNG?v=1638471267473");
   background-size: 320px;
 }
 #bottomLeftQuestion3 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdusk.PNG?v=1638470905085");
-  background-size: 120px;
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdusk.PNG?v=1638471062089");
+  background-size: 320px;
 }
 #topRightQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fnoon.PNG?v=1638470694509");
@@ -498,4 +498,23 @@ ol {
 #topLeftQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdawn.PNG?v=1638470542015");
   background-size: 340px;
+}
+
+.quizInputStyle2:hover{
+  border: 5px solid lime;
+}
+.quizInputStyle2:active{
+  border: 5px solid rgb(0, 120, 0);
+}
+.quizInputStyle2{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.quizInputStyle[value]{
+  font-size: 30px;
+  color: green;
+  font-weight: bold;
+  font-family: word;
 }
