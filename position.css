@@ -462,3 +462,15 @@ ol {
 .quizInputStyle:hover{
   background-color: rgb(20, 250, 40);;
 }
+#bottomRightQuestion2 input{
+  background-color: #32de84;
+}
+#bottomLeftQuestion2 input{
+  background-color: #568203;
+}
+#topRightQuestion2 input{
+  background-color: #17B169;
+}
+#topLeftQuestion2 input{
+  background-color: #66FF00;
+}

@@ -3,10 +3,15 @@ let secondQuizPage = document.getElementById("secondQuizPage");
 /*let div3 = document.getElementById("div3");
 let div4 = document.getElementById("div4");*/
 let resultPoints = 0;
-let question1 = document.getElementById("topLeftQuestion");
-let question2 = document.getElementById("topRightQuestion");
-let question3 = document.getElementById("bottomLeftQuestion");
-let question4 = document.getElementById("bottomRightQuestion");
+let choice1q1 = document.getElementById("topLeftQuestion1");
+let choice2q1 = document.getElementById("topRightQuestion1");
+let choice3q1 = document.getElementById("bottomLeftQuestion1");
+let choice4q1 = document.getElementById("bottomRightQuestion1");
+
+let choice1 = document.getElementById("topLeftQuestion1");
+let choice2 = document.getElementById("topRightQuestion1");
+let choice3 = document.getElementById("bottomLeftQuestion1");
+let choice4 = document.getElementById("bottomRightQuestion1");
 
 
 
@@ -15,28 +20,28 @@ secondQuizPage.style.display = "none";
 /*question3.style.display = "none";
 question4.style.display = "none";*/
 
-question1.addEventListener("click", function(){
+choice1q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
   resultPoints += 10;
   /*div3.style.display = "none";
   div4.style.display = "none";*/
 })
-question2.addEventListener("click", function(){
+choice2q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
   resultPoints+= 15;
   /*div3.style.display = "none";
   div4.style.display = "none";*/
 })
-question3.addEventListener("click", function(){
+choice3q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
   resultPoints+= 20;
   /*div3.style.display = "none";
   div4.style.display = "none";*/
 })
-question4.addEventListener("click", function(){
+choice4q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
   resultPoints+= 25;
