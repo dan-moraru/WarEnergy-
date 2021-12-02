@@ -406,20 +406,14 @@ ol {
   text-align: center;
   padding: 10px;
 }
-#topLeftQuestion1 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fcloudy%20weather.jpg?v=1638468051184");
-  background-size: 330px;
-}
+
 
 .topRightQuestionStyle{
   grid-column: 4 / 7;
   grid-row: 5 / 6;
   padding: 10px;
 }
-#topRightQuestion1 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Frainy%20day.jfif?v=1638467576054");
-  background-size: 500px;
-}
+
 
 .bottomLeftQuestionStyle{
   grid-column: 1 / 4;
@@ -427,20 +421,14 @@ ol {
   padding: 10px;
 }
 
-#bottomLeftQuestion1 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.PNG?v=1638467395935");
-  background-size: 350px;
-  /*background-repeat: no-repeat;*/
-}
+
 
 .bottomRightQuestionStyle{
   grid-column: 4 / 7;
   grid-row: 6 / 7;
   padding: 10px;
 }
-#bottomRightQuestion1 input{
-  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsnowy%20weather.jpg?v=1638465769646");
-}
+
 .quizInputStyle:hover{
   border: 5px solid lime;
 }
@@ -462,6 +450,26 @@ ol {
 .quizInputStyle:hover{
   background-color: rgb(20, 250, 40);;
 }
+
+#topLeftQuestion1 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fcloudy%20weather.jpg?v=1638468051184");
+  background-size: 330px;
+}
+
+#topRightQuestion1 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Frainy%20day.jfif?v=1638467576054");
+  background-size: 500px;
+}
+
+#bottomLeftQuestion1 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.PNG?v=1638467395935");
+  background-size: 350px;
+}
+
+#bottomRightQuestion1 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsnowy%20weather.jpg?v=1638465769646");
+}
+
 #bottomRightQuestion2 input{
   background-color: #32de84;
 }
@@ -473,4 +481,21 @@ ol {
 }
 #topLeftQuestion2 input{
   background-color: #66FF00;
+}
+
+#bottomRightQuestion3 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fmidnight.PNG?v=1638470817163");
+  background-size: 320px;
+}
+#bottomLeftQuestion3 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdusk.PNG?v=1638470905085");
+  background-size: 120px;
+}
+#topRightQuestion3 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fnoon.PNG?v=1638470694509");
+  background-size: 340px;
+}
+#topLeftQuestion3 input{
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdawn.PNG?v=1638470542015");
+  background-size: 340px;
 }
