@@ -24,11 +24,11 @@ body {
   box-sizing: border-box;
 }
 
-/*#zigzag{
+#zigzag{
   min-height: 500px;
   grid-column: 1 / 17;
   grid-row: 1 / 17;
-}*/
+}
 
 .zigzag {
   min-height: 500px;
@@ -423,12 +423,16 @@ ol {
   grid-row: 6 / 7;
   padding: 10px;
 }
-
+#bottomRightQuestion{
+  color: white;
+  font-weight: bold;
+}
 .quizInputStyle{
   width: 100%;
   height: 100%;
   border-radius: 20px;
   background-color: rgb(20, 200, 30);
+  background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsnowy%20weather.jpg?v=1638465769646");
   
 }
 .quizInputStyle:hover{
