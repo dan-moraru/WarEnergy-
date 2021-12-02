@@ -51,28 +51,27 @@
         action="https://sonic.dawsoncollege.qc.ca/~sam/lab8/suggestion.php"
         method="post"
       >
-        <div class="question"><h2>What kind of weather do you prefer?</h2></div>
+        <div id="question1Container">
+          <!--<img src="" alt="energy drink can" />-->
+          <div class="question1">
+            <h2>What kind of weather do you prefer?</h2>
+          </div>         
+          <div class="topLeftQuestion">
+            <input type="button" id="weather" name="weather" value="Sunny Day"/>
+          </div>
 
-        <div class="questions">
-          <label>Sunny Day</label>
-          <input type="radio" id="weather" name="weather" value="" />
+          <div class="topRightQuestion">
+            <input type="button" id="weather" name="weather" value="Rainy Day" />
+          </div>
+
+          <div class="bottomLeftQuestion">
+            <input type="button" id="weather" name="weather" value="Cloudy Day" />
+          </div>
+
+          <div class="bottomRightQuestion">
+            <input type="button" id="weather" name="weather" value="Snowy Day" />
+          </div>
         </div>
-
-        <div class="topRightQuestion">
-          <label>Rainy Day</label>
-          <input id="weather" name="weather" value="" />
-        </div>
-
-        <div class="bottomLeftQuestion">
-          <label>Cloudy Day</label>
-          <input id="weather" name="weather" value="" />
-        </div>
-
-        <div class="bottomRightQuestion">
-          <label>Snowy Day</label>
-          <input id="weather" name="weather" value="" />
-        </div>
-
         <!--<h2>What is your favorite color?</h2>
         <label>Red</label>
         <input type="radio" id="color" name="color" value="" />

@@ -369,14 +369,13 @@ ol {
   border: black solid 3px;
 }
 
-.question {
+question1Container{
   grid-column: 10 / 20;
   grid-row: 7 / 9;
   border: solid black 2px;
-  text-align: center;
 }
 
-.topLeft {
+/*.topLeft {
   grid-column: 4 / 6;
   grid-row: 7 / 9;
   display: block;
@@ -406,7 +405,7 @@ ol {
   width: 100%;
   display: block;
   border: solid black 2px;
-}
+}*/
 
 label{
   font-family: word;
