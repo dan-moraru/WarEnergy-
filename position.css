@@ -331,3 +331,17 @@ ol{
   width: 100%;
   display: block;
 }
+
+#centerStart{
+  grid-column: 10 / 11;
+  grid-row: 10 / 11;
+}
+
+#quizStart{
+  display: grid;
+  grid-template-column: repeat(20, 1fr);
+  grid-template-row: repeat(20, 1fr);
+  grid-column: 4 / 8;
+  grid-row: 2 / 10;
+  border: 2px solid black;
+}

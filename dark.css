@@ -121,6 +121,10 @@ a, h1, p, td, li, dd, figcaption{
   color: white;
 }
 
+.white{
+  color: white;
+}
+
 a:active{
   color: rgba(0, 120, 0, 1);
 }
