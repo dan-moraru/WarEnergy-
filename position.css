@@ -24,11 +24,11 @@ body{
   box-sizing: border-box;
 }
 
-#zigzag{
+/*#zigzag{
   min-height: 500px;
   grid-column: 1 / 17;
   grid-row: 1 / 17;
-}
+}*/
 
 .zigzag{
   min-height: 500px;
