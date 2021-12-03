@@ -12,16 +12,10 @@ let themeLink = document.getElementsByTagName("link")[1];
 
 function validateForm(){
   let email = document.getElementById("newsLetter").children[1];
-  if (email === ""){
-    alert("no");
-  }
-}
-/*newsLetter.addEventListener("keypress", function (event) {
-  if (event.key === "Enter" && validEmail) {
+  if (email !== ""){
     alert("Thank you for Subscribing!");
   }
-});*/
-
+}
 
 if (myStorage.getItem("themeLink") == "/dark.css"){
   myStorage.setItem("themeLink", "/dark.css");

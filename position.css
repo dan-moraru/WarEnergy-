@@ -218,7 +218,7 @@ footer {
 h2,
 a,
 p,
-figcaption, li {
+figcaption, li, dd {
   font-family: word;
 }
 
@@ -576,4 +576,9 @@ ol {
   margin-left: 100px;
   grid-column: 6 / 10;
   grid-row: 2 / 9;
+}
+
+.price{
+  width: 60%;
+  text-align: right;
 }
