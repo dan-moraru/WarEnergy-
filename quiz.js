@@ -39,7 +39,7 @@ quizEnd.style.display = "none";
 
 //Start Quiz
 startButton.addEventListener("click", function(){
-  quizStart.style.display
+  quizStart.style.display="none";
   startButton.style.display="none";
   firstQuizPage.style.display = "";
 })

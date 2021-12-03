@@ -340,30 +340,6 @@ ol {
   grid-template-rows: repeat(20, 1fr);
 }*/
 
-/*#quizStart {
-  grid-column: 4 / 8;
-  grid-row: 5 / 6;
-  border-radius: 20px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-#quizStart h2 {
-  grid-column: 1 / 8;
-  grid-row: 1 / 2;
-  margin: 30px;
-}*/
-
-#quizStart p {
-  grid-column: 2 / 3;
-  grid-row: 7 / 8;
-  margin: 10px;
-  font-size: 30px;
-  display: inline;
-  padding: 10px;
-  border: black solid 3px;
-}
-
 #quizMain form{
   width: 100%;
   height: 100%;
@@ -380,6 +356,30 @@ ol {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
+}
+
+#quizStart {
+  grid-column: 4 / 8;
+  grid-row: 8 / 9;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#quizStart h2 {
+  grid-column: 4 / 8;
+  grid-row: 9 / 10;
+  margin: 30px;
+}
+
+#quizStart p {
+  grid-column: 4 / 8;
+  grid-row: 10 / 11;
+  margin: 10px;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  border: black solid 3px;
 }
 
 .questionImage{
