@@ -181,3 +181,115 @@ a:active{
 .righty table{
   border: 20px solid white;
 }
+
+#quizMain form{
+  background-color: beige;
+  border: 2px solid rgb(0, 200, 20);
+  border-radius: 20px;
+}
+
+#quizStart p {
+  border: black solid 3px;
+}
+
+.quizInputStyle:hover{
+  border: 5px solid lime;
+}
+
+.quizInputStyle:active{
+  border: 5px solid rgb(0, 120, 0);
+}
+
+.quizInputStyle[value]{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: word;
+}
+
+.quizInputStyle{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.quizInputStyle:hover{
+  background-color: rgb(20, 250, 40);;
+}
+
+#bottomRightQuestion2 input{
+  background-color: #32de84;
+}
+#bottomLeftQuestion2 input{
+  background-color: #568203;
+}
+#topRightQuestion2 input{
+  background-color: #17B169;
+}
+#topLeftQuestion2 input{
+  background-color: #66FF00;
+}
+
+.quizInputStyle2:hover{
+  border: 5px solid lime;
+}
+
+.quizInputStyle2:active{
+  border: 5px solid rgb(0, 120, 0);
+}
+
+.quizInputStyle2[value]{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: word;
+}
+
+.quizInputStyle3[value]{
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: word;
+}
+
+.quizInputStyle3:hover{
+  border: 5px solid lime;
+}
+.quizInputStyle3:active{
+  border: 5px solid rgb(0, 120, 0);
+}
+
+#quizEnd p {
+  margin: 10px;
+  font-size: 25px;
+  padding-bottom: 30px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+#black:hover{
+  color: lime;
+}
+
+#black:active{
+  color: green;
+}
+
+#black{
+  color: black;
+}
+.righty table tbody tr td, .righty table thead tr td{
+  padding: 10px;
+}
+
+.righty {
+  margin-left: 100px;
+  grid-column: 6 / 10;
+  grid-row: 2 / 9;
+}
+
+.price{
+  width: 60%;
+  text-align: right;
+}

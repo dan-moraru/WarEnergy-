@@ -13,7 +13,7 @@ html {
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FElianto-Regular.ttf?v=1635978969589);
 }
 
-body {
+body{
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
