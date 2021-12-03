@@ -15,11 +15,10 @@ let themeLink = document.getElementsByTagName("link")[1];
   alert("Thank you for Subscribing!");
 })*/
 
-if (window.localStorage == null){
-  myStorage = window.localStorage;
-}
-
-myStorage.setItem("themeLink", myStorage.getItem("themeLink"));
+if (themeLink.getItem("themeLink") == "/light.css"){
+  
+}else if(themeLink.getItem("themeLink") == "/dark.css")
+themeLink.setAttribute("href", myStorage.getItem("themeLink"));
 
 themeButton.addEventListener("click", function(){
   if (myStorage.getItem("themeLink") == "/dark.css"){
