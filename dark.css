@@ -159,7 +159,7 @@ a:active{
 /*h1 inspired by CW Joe: https://youtu.be/Ot5bBiy1cb4 */
 
 #l1{
-  background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
+  background: -webkit-linear-gradient(hsla(131, 100%, 15%, 1) 0%, hsla(131, 100%, 22%, 1) 46%, hsla(131, 100%, 32%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 0px 100px lime;

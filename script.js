@@ -11,9 +11,12 @@ let orderButton = document.getElementById("insideButton");
 let themeButton = document.getElementById("switch");
 let themeLink = document.getElementsByTagName("link")[1];
 
-/*newsLetter.addEventListener("click", function(){
-  alert("Thank you for Subscribing!");
-})*/
+newsLetter.addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') {
+    alert("Thank you for Subscribing!");
+  }
+});
+
 
 if (myStorage.getItem("themeLink") == "/dark.css"){
   myStorage.setItem("themeLink", "/dark.css");
@@ -36,12 +39,17 @@ if (myStorage.getItem("themeLink") == "/dark.css"){
   logoFoot.setAttribute("src", myStorage.getItem("logoFoot"));
   logoHead.setAttribute("src", myStorage.getItem("logoHead"));
   themeButton.setAttribute("src", myStorage.getItem("themeButton"));
+}else{
+  myStorage.setItem("themeLink", "/dark.css");
+  myStorage.setItem("logoFoot", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwebLogoWhitePNG.png?v=1638310524846");
+  myStorage.setItem("logoHead", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwebLogoWhitePNG.png?v=1638310524846");
+  myStorage.setItem("themeButton", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FUntitled-1.png?v=1638322301896")
+  
+  themeLink.setAttribute("href", myStorage.getItem("themeLink"));
+  logoFoot.setAttribute("src", myStorage.getItem("logoFoot"));
+  logoHead.setAttribute("src", myStorage.getItem("logoHead"));
+  themeButton.setAttribute("src", myStorage.getItem("themeButton"));
 }
-
-/*themeLink.setAttribute("href", myStorage.getItem("themeLink"));
-logoFoot.setAttribute("src", myStorage.getItem("logoFoot"));
-logoHead.setAttribute("src", myStorage.getItem("logoHead"));
-themeButton.setAttribute("src", myStorage.getItem("themeButton"));*/
 
 themeButton.addEventListener("click", function(){
   if (myStorage.getItem("themeLink") == "/dark.css"){
