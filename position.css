@@ -218,7 +218,7 @@ footer {
 h2,
 a,
 p,
-figcaption, li, dd {
+figcaption, li, dd, dt {
   font-family: word;
 }
 
