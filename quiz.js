@@ -47,19 +47,19 @@ startButton.addEventListener("click", function(){
 choice1q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints += 10;
+  resultPoints += 20;
 
 })
 choice2q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 20;
+  resultPoints+= 30;
 
 })
 choice3q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 30;
+  resultPoints+= 10;
 
 })
 choice4q1.addEventListener("click", function(){
@@ -74,13 +74,13 @@ choice4q1.addEventListener("click", function(){
 choice1q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints += 10;
+  resultPoints += 40;
 
 })
 choice2q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints+= 20;
+  resultPoints+= 10;
 
 })
 choice3q2.addEventListener("click", function(){
@@ -92,7 +92,7 @@ choice3q2.addEventListener("click", function(){
 choice4q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints+= 40;
+  resultPoints+= 20;
 
 })
 
@@ -101,19 +101,19 @@ choice4q2.addEventListener("click", function(){
 choice1q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints += 10;
+  resultPoints += 30;
 
 })
 choice2q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints+= 20;
+  resultPoints+= 10;
 
 })
 choice3q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints+= 30;
+  resultPoints+= 20;
 
 })
 choice4q3.addEventListener("click", function(){
@@ -128,13 +128,13 @@ choice4q3.addEventListener("click", function(){
 choice1q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints += 10;
+  resultPoints += 20;
 
 })
 choice2q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints+= 20;
+  resultPoints+= 40;
 
 })
 choice3q4.addEventListener("click", function(){
@@ -146,14 +146,16 @@ choice3q4.addEventListener("click", function(){
 choice4q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints+= 40;
+  resultPoints+= 10;
 
 })
+
+let myStorage = window.localStorage;
 
 /*if (resultPoints > 0 && total <= 40){
   alert("you are...");
   img.setAttribute("src", "url");
-  h2,
+  h2.textContent = "";
 }
 else if (resultPoints > 40 && total <= 80){
   
