@@ -305,7 +305,7 @@ main video {
 }
 
 .righty {
-  grid-column: 8 / 10;
+  grid-column: 7 / 10;
   grid-row: 2 / 9;
 }
 

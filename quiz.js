@@ -30,7 +30,10 @@ let quizEnd = document.getElementById("quizEnd");
 let resultH2 = document.getElementById("resulth2");
 let result = document.getElementById("result");
 
-let resultPoints = 0;
+let coffeePoints = 0;
+let boostPoints = 0;
+let sugarfreePoints = 0;
+let originalPoints = 0;
 
 quizStart.style.display = "";
 firstQuizPage.style.display = "none";
@@ -50,25 +53,28 @@ startButton.addEventListener("click", function(){
 choice1q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints += 20;
+  sugarfreePoints += 25;
 
 })
 choice2q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 30;
+  resultPoints += 30;
+  coffeePoints += 25;
 
 })
 choice3q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 10;
+  resultPoints += 10;
+  originalPoints += 25;
 
 })
 choice4q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints+= 40;
+  resultPoints += 40;
+  boostPoints += 25;
 
 })
 
@@ -78,24 +84,28 @@ choice1q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
   resultPoints += 40;
+  boostPoints += 25;
 
 })
 choice2q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
   resultPoints+= 10;
+  originalPoints += 25;
 
 })
 choice3q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
   resultPoints+= 30;
+  coffeePoints += 25;
 
 })
 choice4q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
   resultPoints+= 20;
+  sugarfreePoints += 25;
 
 })
 
@@ -105,24 +115,28 @@ choice1q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
   resultPoints += 30;
+  coffeePoints += 25;
 
 })
 choice2q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
   resultPoints+= 10;
+  originalPoints += 25;
 
 })
 choice3q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
   resultPoints+= 20;
+  sugarfreePoints += 25;
 
 })
 choice4q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
   resultPoints+= 40;
+  boostPoints += 25;
 
 })
 
@@ -132,26 +146,35 @@ choice1q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints += 20;
+  sugarfreePoints += 25;
   outputResult();
 })
 choice2q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 40;
+  boostPoints += 25;
   outputResult();
 })
 choice3q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 30;
+  coffeePoints += 25;
   outputResult();
 })
 choice4q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 10;
+  originalPoints += 25;
   outputResult();
 })
+
+/*switch(coffeePoints, boostPoints, sugarfreePoints, originalPoints){
+  case coffeePoints = 75:
+    
+}*/
 
 function outputResult(){
   if (resultPoints > 0 && resultPoints <= 40){
