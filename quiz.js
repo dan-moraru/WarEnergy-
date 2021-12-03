@@ -165,19 +165,19 @@ function outputResult(){
     case pointsChosenIndex = 0:
       resultH2.textContent = "You are a War Energy Coffee flavour!";
       result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FcoffeeStanding.png?v=1638493771188");
-      console.log(pointsChosenIndex);
+      break;
     case pointsChosenIndex = 1:
       resultH2.textContent = "You are a War Energy BOOST flavour!";
       result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FboostStanding.png?v=1638493776859");
-      console.log(pointsChosenIndex);
+      break;
     case pointsChosenIndex = 2:
       resultH2.textContent = "You are a War Energy Sugar Free flavour!";
       result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FsugarfreeStanding.png?v=1638493764626");
-      console.log(pointsChosenIndex);
+      break;
     case pointsChosenIndex = 3:
       resultH2.textContent = "You are a War Energy Original flavour!";
       result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083");    
-      console.log(pointsChosenIndex);
+      break;
   }
 }
 
