@@ -24,7 +24,7 @@ myStorage.setItem("themeLink", "/dark.css");
 themeButton.addEventListener("click", function(){
   if (myStorage.getItem("themeLink") == "/dark.css"){
     myStorage.setItem("themeLink", "/light.css");
-    themeLink.setAttribute("href", myStorage);
+    themeLink.setAttribute("href", myStorage.getItem("themeLink"));
     logoHead.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwebLogoPNG.png?v=1637714448522");
     logoFoot.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FwebLogoPNG.png?v=1637714448522");
     themeButton.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2F183-1836881_half-moon-png-pic-half-moon-logo-png.png?v=1638314118399");
@@ -37,6 +37,11 @@ themeButton.addEventListener("click", function(){
   }
 
 })
+
+function setTheme(){
+  themeLink.setAttribute("href", myStorage.getItem("themeLink"));
+}
+
 
 
 

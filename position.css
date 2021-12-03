@@ -363,6 +363,7 @@ ol {
   grid-row: 1 / 4;
   border-radius: 20px;
   text-align: center;
+  padding-top: 150px;
 }
 
 #quizStart h2 {
@@ -532,4 +533,24 @@ ol {
 }
 .quizInputStyle3:active{
   border: 5px solid rgb(0, 120, 0);
+}
+
+#quizEnd {
+  grid-column: 2 / 6;
+  grid-row: 1 / 4;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+#quizEnd img{
+  width: 100%;
+}
+
+#quizEnd p {
+  margin: 10px;
+  font-size: 30px;
+  display: inline;
+  padding: 10px;
+  border: black solid 3px;
 }
