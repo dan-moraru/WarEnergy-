@@ -359,22 +359,17 @@ ol {
 }
 
 #quizStart {
-  grid-column: 4 / 8;
-  grid-row: 8 / 9;
+  grid-column: 2 / 6;
+  grid-row: 1 / 4;
   border-radius: 20px;
   text-align: center;
-  vertical-align: middle;
 }
 
 #quizStart h2 {
-  grid-column: 4 / 8;
-  grid-row: 9 / 10;
   margin: 30px;
 }
 
 #quizStart p {
-  grid-column: 4 / 8;
-  grid-row: 10 / 11;
   margin: 10px;
   font-size: 30px;
   display: inline;
