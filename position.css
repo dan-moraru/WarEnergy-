@@ -550,7 +550,11 @@ ol {
 #quizEnd p {
   margin: 10px;
   font-size: 30px;
-  display: inline;
+  /*display: inline;*/
   padding: 10px;
+  color: black;
+}
+
+#resulth2{
   color: black;
 }
