@@ -15,6 +15,11 @@
   background: linear-gradient(65deg, rgb(0, 170, 0) 25%, transparent 25%), linear-gradient(-65deg, rgb(0, 170, 0) 25%, transparent 25%), linear-gradient(164.5deg, rgb(0, 220, 0) 25%, transparent 25%), linear-gradient(-164.5deg, rgb(0, 220, 0) 25%, transparent 25%);
 }
 
+#zigzagRecipe{
+  background: hsla(211, 66%, 87%, 1);
+  background: radial-gradient(circle, hsla(211, 66%, 87%, 1) 0%, hsla(0, 0%, 100%, 1) 0%, hsla(99, 100%, 81%, 1) 100%);
+}
+
 header{
   background-color: #F5F5F5;
   /*border: 2px solid blue;*/

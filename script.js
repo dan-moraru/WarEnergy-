@@ -2,8 +2,6 @@
 
 let myStorage = window.localStorage;
 
-let validEmail = document.getElementById("newsLetter").children[1].checkValidity();
-
 let newsLetter = document.getElementById("email");
 let logoHead = document.getElementById("logoHead");
 let logoFoot = document.getElementById("logoFoot");
@@ -12,11 +10,17 @@ let orderButton = document.getElementById("insideButton");
 let themeButton = document.getElementById("switch");
 let themeLink = document.getElementsByTagName("link")[1];
 
-newsLetter.addEventListener("keypress", function (event) {
+function validateForm(){
+  let email = document.getElementById("newsLetter").children[1];
+  if (email === ""){
+    alert("no");
+  }
+}
+/*newsLetter.addEventListener("keypress", function (event) {
   if (event.key === "Enter" && validEmail) {
     alert("Thank you for Subscribing!");
   }
-});
+});*/
 
 
 if (myStorage.getItem("themeLink") == "/dark.css"){

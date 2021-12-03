@@ -16,7 +16,7 @@
 }
 
 #zigzagRecipe{
-  background: linear-gradient(65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(50deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-50deg, rgb(0, 130, 0) 25%, transparent 25%);
+  
 }
 
 body{
