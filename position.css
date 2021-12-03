@@ -543,7 +543,7 @@ ol {
   padding-top: 150px;
 }
 
-#quizEnd img{
+.quizEndImg{
   width: 100%;
 }
 
@@ -552,5 +552,5 @@ ol {
   font-size: 30px;
   display: inline;
   padding: 10px;
-  border: black solid 3px;
+  color: black;
 }

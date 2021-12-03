@@ -27,6 +27,12 @@ let choice3q4 = document.getElementById("bottomLeftQuestion4");
 let choice4q4 = document.getElementById("bottomRightQuestion4");
 
 let quizEnd = document.getElementById("quizEnd");
+let resultH2 = document.getElementById("resulth2");
+let result1 = document.getElementById("result1");
+let result2 = document.getElementById("result2");
+let result3 = document.getElementById("result3");
+let result4 = document.getElementById("result4");
+
 
 let resultPoints = 0;
 
@@ -36,6 +42,11 @@ secondQuizPage.style.display = "none";
 thirdQuizPage.style.display = "none";
 fourthQuizPage.style.display = "none";
 quizEnd.style.display = "none";
+resultH2.style.display = "none";
+result1.style.display = "none";
+result2.style.display = "none";
+result3.style.display = "none";
+result4.style.display = "none";
 
 //Start Quiz
 startButton.addEventListener("click", function(){
@@ -151,19 +162,31 @@ choice4q4.addEventListener("click", function(){
 
 })
 
-
-
-/*if (resultPoints > 0 && total <= 40){
-  alert("you are...");
-  img.setAttribute("src", "url");
-  h2.textContent = "";
+if (resultPoints > 0 && resultPoints <= 40){
+  resultH2.innerHTML("You are a War Energy Original flavour!");
+  result1.style.display = "";
+  result2.style.display = "none";
+  result3.style.display = "none";
+  result4.style.display = "none";
 }
-else if (resultPoints > 40 && total <= 80){
-  
+else if (resultPoints > 40 && resultPoints <= 80){
+  resultH2.innerHTML("You are a War Energy Sugar Free flavour!");
+  result1.style.display = "none";
+  result2.style.display = "";
+  result3.style.display = "none";
+  result4.style.display = "none";
 }
-else if (resultPoints > 80 && total <= 120){
-  
+else if (resultPoints > 80 && resultPoints <= 120){
+  resultH2.innerHTML("You are a War Energy Coffee flavour!");
+  result1.style.display = "none";
+  result2.style.display = "none";
+  result3.style.display = "";
+  result4.style.display = "none";
 }
-else if (resultPoints > 120 && total <= 160){
-  
-}*/
+else if (resultPoints > 120 && resultPoints <= 160){
+  resultH2.innerHTML("You are a War Energy BOOST flavour! ");
+  result1.style.display = "none";
+  result2.style.display = "none";
+  result3.style.display = "none";
+  result4.style.display = "";
+}
