@@ -10,7 +10,7 @@ let boostAndCoffee = document.getElementById("hot");
 let packOf12 = document.getElementById("12pack");
 let packOf48 = document.getElementById("48pack");
 
-let taxes = 
+let taxes = 14.975;
 let total = 0;
 packOf12 = 15.99;
 packOf48 = 35.99;
@@ -26,5 +26,5 @@ function calculatePrice(){
 }
 
 function caluclateTaxes(){
-  total *= 
+  total += (total * taxes) / 100;
 }
