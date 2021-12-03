@@ -142,6 +142,11 @@ a:hover{
   color: rgb(0, 177, 0);
 }
 
+dl{
+  border: solid black 20px;
+  padding: 30px;
+}
+
 a, h1, p, td, li, dd, figcaption{
   color: white;
 }
