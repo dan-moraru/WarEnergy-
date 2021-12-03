@@ -521,7 +521,7 @@ ol {
 }
 
 .quizInputStyle3[value]{
-  font-size: 12px;
+  font-size: 10px;
   color: black;
   font-weight: bold;
   font-family: word;
@@ -564,4 +564,7 @@ ol {
 
 #black{
   color: black;
+}
+.righty table tbody tr td, .righty table thead tr td{
+  padding: 100px;
 }
