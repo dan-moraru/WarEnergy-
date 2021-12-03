@@ -21,6 +21,11 @@ let choice2q3 = document.getElementById("topRightQuestion3");
 let choice3q3 = document.getElementById("bottomLeftQuestion3");
 let choice4q3 = document.getElementById("bottomRightQuestion3");
 
+let choice1q4 = document.getElementById("topLeftQuestion4");
+let choice2q4 = document.getElementById("topRightQuestion4");
+let choice3q4 = document.getElementById("bottomLeftQuestion4");
+let choice4q4 = document.getElementById("bottomRightQuestion4");
+
 let quizEnd = document.getElementById("quizEnd");
 
 let resultPoints = 0;
@@ -30,6 +35,7 @@ firstQuizPage.style.display = "none";
 secondQuizPage.style.display = "none";
 thirdQuizPage.style.display = "none";
 fourthQuizPage.style.display = "none";
+quizEnd.style.display = "none";
 
 //Start Quiz
 startButton.addEventListener("click", function(){
@@ -117,29 +123,44 @@ choice4q3.addEventListener("click", function(){
 
 })
 
-/*question3.addEventListener("click", function(){
-  div1.style.display = "none";
-  div2.style.display = "none";
-  div3.style.display = "block";
-  div4.style.display = "none";
-})
-question4.addEventListener("click", function(){
-  div1.style.display = "none";
-  div2.style.display = "none";
-  div3.style.display = "none";
-  div4.style.display = "block";
-})*/
+//Question 4
 
-/*let input = document.getElementByid("input1");
-let inputValue = input.getAttribute("value");
-let total = 0;
-input.addEventListener("click", function(){
-  total += inputValue;
-})
-img = document... 
-img.setAttribute("src", "");
+choice1q4.addEventListener("click", function(){
+  fourthQuizPage.style.display = "none";
+  quizEnd.style.display = "";
+  resultPoints += 10;
 
-if (total > 0 && total <= 15){
-  alert("you are...")
+})
+choice2q4.addEventListener("click", function(){
+  fourthQuizPage.style.display = "none";
+  quizEnd.style.display = "";
+  resultPoints+= 20;
+
+})
+choice3q4.addEventListener("click", function(){
+  fourthQuizPage.style.display = "none";
+  quizEnd.style.display = "";
+  resultPoints+= 30;
+
+})
+choice4q4.addEventListener("click", function(){
+  fourthQuizPage.style.display = "none";
+  quizEnd.style.display = "";
+  resultPoints+= 40;
+
+})
+
+/*if (resultPoints > 0 && total <= 40){
+  alert("you are...");
   img.setAttribute("src", "url");
-}else if()*/
+  h2,
+}
+else if (resultPoints > 40 && total <= 80){
+  
+}
+else if (resultPoints > 80 && total <= 120){
+  
+}
+else if (resultPoints > 120 && total <= 160){
+  
+}*/
