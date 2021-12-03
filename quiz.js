@@ -30,6 +30,8 @@ let quizEnd = document.getElementById("quizEnd");
 let resultH2 = document.getElementById("resulth2");
 let result = document.getElementById("result");
 
+let resultPoints = 0;
+
 let coffeePoints = 0;
 let boostPoints = 0;
 let sugarfreePoints = 0;
@@ -59,21 +61,18 @@ choice1q1.addEventListener("click", function(){
 choice2q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints += 30;
   coffeePoints += 25;
 
 })
 choice3q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints += 10;
   originalPoints += 25;
 
 })
 choice4q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
   secondQuizPage.style.display = "";
-  resultPoints += 40;
   boostPoints += 25;
 
 })
@@ -83,28 +82,24 @@ choice4q1.addEventListener("click", function(){
 choice1q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints += 40;
   boostPoints += 25;
 
 })
 choice2q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints+= 10;
   originalPoints += 25;
 
 })
 choice3q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints+= 30;
   coffeePoints += 25;
 
 })
 choice4q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
-  resultPoints+= 20;
   sugarfreePoints += 25;
 
 })
@@ -114,28 +109,24 @@ choice4q2.addEventListener("click", function(){
 choice1q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints += 30;
   coffeePoints += 25;
 
 })
 choice2q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints+= 10;
   originalPoints += 25;
 
 })
 choice3q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints+= 20;
   sugarfreePoints += 25;
 
 })
 choice4q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
-  resultPoints+= 40;
   boostPoints += 25;
 
 })
@@ -145,38 +136,53 @@ choice4q3.addEventListener("click", function(){
 choice1q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints += 20;
   sugarfreePoints += 25;
   outputResult();
 })
 choice2q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints+= 40;
   boostPoints += 25;
   outputResult();
 })
 choice3q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints+= 30;
   coffeePoints += 25;
   outputResult();
 })
 choice4q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
-  resultPoints+= 10;
   originalPoints += 25;
   outputResult();
 })
 
-/*switch(coffeePoints, boostPoints, sugarfreePoints, originalPoints){
-  case coffeePoints = 75:
-    
-}*/
-
 function outputResult(){
+  let pointArray = [coffeePoints, boostPoints, sugarfreePoints, originalPoints];
+  let pointsChosenIndex = pointArray.indexOf(Math.max(...pointArray));
+  switch(pointsChosenIndex){
+    case pointsChosenIndex = 0:
+      resultH2.textContent = "You are a War Energy Coffee flavour!";
+      result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FcoffeeStanding.png?v=1638493771188");
+      console.log(pointsChosenIndex);
+    case pointsChosenIndex = 1:
+      resultH2.textContent = "You are a War Energy BOOST flavour!";
+      result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FboostStanding.png?v=1638493776859");
+      console.log(pointsChosenIndex);
+    case pointsChosenIndex = 2:
+      resultH2.textContent = "You are a War Energy Sugar Free flavour!";
+      result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FsugarfreeStanding.png?v=1638493764626");
+      console.log(pointsChosenIndex);
+    case pointsChosenIndex = 3:
+      resultH2.textContent = "You are a War Energy Original flavour!";
+      result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083");    
+      console.log(pointsChosenIndex);
+  }
+}
+
+
+/*function outputResult(){
   if (resultPoints > 0 && resultPoints <= 40){
     resultH2.textContent = "You are a War Energy Original flavour!";
     result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083");
@@ -197,4 +203,4 @@ function outputResult(){
     result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FboostStanding.png?v=1638493776859");
     console.log(resultPoints);
   }
-}
+}*/
