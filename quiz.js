@@ -39,6 +39,7 @@ quizEnd.style.display = "none";
 
 //Start Quiz
 startButton.addEventListener("click", function(){
+  quizStart.style.display
   startButton.style.display="none";
   firstQuizPage.style.display = "";
 })
@@ -150,7 +151,7 @@ choice4q4.addEventListener("click", function(){
 
 })
 
-let myStorage = window.localStorage;
+
 
 /*if (resultPoints > 0 && total <= 40){
   alert("you are...");

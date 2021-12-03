@@ -352,7 +352,7 @@ ol {
   grid-column: 1 / 8;
   grid-row: 1 / 2;
   margin: 30px;
-}
+}*/
 
 #quizStart p {
   grid-column: 2 / 3;
@@ -362,7 +362,7 @@ ol {
   display: inline;
   padding: 10px;
   border: black solid 3px;
-}*/
+}
 
 #quizMain form{
   width: 100%;
@@ -530,4 +530,11 @@ ol {
   color: black;
   font-weight: bold;
   font-family: word;
+}
+
+.quizInputStyle3:hover{
+  border: 5px solid lime;
+}
+.quizInputStyle3:active{
+  border: 5px solid rgb(0, 120, 0);
 }
