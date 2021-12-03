@@ -24,6 +24,7 @@ body {
   box-sizing: border-box;
 }
 
+/*Zig Zag Borders by Parvat Computer Technology: https://youtu.be/urYtvBmxMVE */
 #zigzag{
   min-height: 500px;
   grid-column: 1 / 17;

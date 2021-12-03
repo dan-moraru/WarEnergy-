@@ -155,6 +155,8 @@ a:active{
   border-right: #2C2F33 solid 50px; 
 }
 
+/*h1 inspired by CW Joe: https://youtu.be/Ot5bBiy1cb4  */
+
 #l1{
   background: -webkit-linear-gradient(hsla(103, 100%, 15%, 1) 0%, hsla(68, 57%, 22%, 1) 46%, hsla(42, 48%, 32%, 1) 100%);
   -webkit-background-clip: text;
