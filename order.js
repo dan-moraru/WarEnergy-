@@ -9,9 +9,6 @@ let boostAndCoffee = document.getElementById("hot");
 let packOf12 = document.getElementById("12pack");
 let packOf48 = document.getElementById("48pack");
 
-let total1 = document.getElementById("total1");
-let total2 = document.getElementById("total2");
-
 let taxes = 14.975;
 let total = 0;
 
@@ -21,24 +18,36 @@ let packChosenMultiplier;
 
 let packOf12Price = 15.99;
 let packOf48Price = 35.99;
+let packChosenPrice;
+let packChoseMultiplier;
+
+let totalWithoutTaxes = document.getElementById("total1");
+let totalWithTaxes = document.getElementById("total2");
+
+let purchaseForm = document.getElementById("purchase");
 
 packOf12.addEventListener("click", function(){
-  total = packOf12Price;
-  packChosenMultiplier = packOf12;
+  packChosenPrice = packOf12Price;
 })
 
 packOf48.addEventListener("click", function(){
-  total = packOf48;
+  packChosenPrice = packOf48Price;
 })
 
 originalAndSugarfree.addEventListener("click", function(){
-  total = originalAndSugarfreeMultiplier;
+  packChoseMultiplier = originalAndSugarfreeMultiplier;
 })
 
 boostAndCoffee.addEventListener("click", function(){
-  total = boostAndCoffeeMultiplier;
-  total (price * mulitplier)
+  packChoseMultiplier = boostAndCoffeeMultiplier;
 })
+
+purchaseForm.on("change", function(){
+  total = packChosenPrice * packChoseMultiplier;
+  totalWithoutTaxes.textContent = total;
+});
+
+
 
 /*function calculatePrice(){
   total += packOf12;
@@ -47,8 +56,6 @@ boostAndCoffee.addEventListener("click", function(){
   total += boostAndCoffeeMultiplier;
 }*/
 
-total1.textContent = total;
+/*total1.textContent = total;
 
-total *= 0.14975;
-
-total2.textContent = total;
+total2.textContent = total;*/
