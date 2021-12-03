@@ -260,11 +260,8 @@ a:active{
 }
 
 #quizEnd p {
-  margin: 10px;
   font-size: 25px;
-  padding-bottom: 30px;
   color: black;
-  text-align: center;
   font-weight: bold;
 }
 
@@ -278,18 +275,4 @@ a:active{
 
 #black{
   color: black;
-}
-.righty table tbody tr td, .righty table thead tr td{
-  padding: 10px;
-}
-
-.righty {
-  margin-left: 100px;
-  grid-column: 6 / 10;
-  grid-row: 2 / 9;
-}
-
-.price{
-  width: 60%;
-  text-align: right;
 }
