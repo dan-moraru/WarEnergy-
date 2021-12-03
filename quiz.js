@@ -128,7 +128,6 @@ choice4q3.addEventListener("click", function(){
   thirdQuizPage.style.display = "none";
   fourthQuizPage.style.display = "";
   boostPoints += 25;
-
 })
 
 //Question 4

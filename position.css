@@ -305,11 +305,6 @@ main video {
   border-radius: 30px;
 }
 
-.righty {
-  grid-column: 7 / 10;
-  grid-row: 2 / 9;
-}
-
 dt {
   font-weight: bold;
 }
@@ -566,5 +561,13 @@ ol {
   color: black;
 }
 .righty table tbody tr td, .righty table thead tr td{
-  padding: 100px;
+  padding: 10px;
+}
+.righty table{
+  border: 20px solid white;
+}
+.righty {
+  margin-left: 100px;
+  grid-column: 6 / 10;
+  grid-row: 3 / 9;
 }
