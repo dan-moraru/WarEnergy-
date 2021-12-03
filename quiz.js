@@ -1,3 +1,6 @@
+let quizStart = document.getElementById("quizStart");
+let startButton = document.getElementById("startButton");
+
 let firstQuizPage = document.getElementById("firstQuizPage");
 let secondQuizPage = document.getElementById("secondQuizPage");
 let thirdQuizPage = document.getElementById("thirdQuizPage");
@@ -18,12 +21,21 @@ let choice2q3 = document.getElementById("topRightQuestion3");
 let choice3q3 = document.getElementById("bottomLeftQuestion3");
 let choice4q3 = document.getElementById("bottomRightQuestion3");
 
+let quizEnd = document.getElementById("quizEnd");
+
 let resultPoints = 0;
 
-firstQuizPage.style.display = "";
+quizStart.style.display = "";
+firstQuizPage.style.display = "none";
 secondQuizPage.style.display = "none";
 thirdQuizPage.style.display = "none";
 fourthQuizPage.style.display = "none";
+
+//Start Quiz
+startButton.addEventListener("click", function(){
+  startButton.style.display="none";
+  firstQuizPage.style.display = "";
+})
 
 //Question 1
 choice1q1.addEventListener("click", function(){
