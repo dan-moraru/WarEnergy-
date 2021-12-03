@@ -1,6 +1,7 @@
 let firstQuizPage = document.getElementById("firstQuizPage");
 let secondQuizPage = document.getElementById("secondQuizPage");
 let thirdQuizPage = document.getElementById("thirdQuizPage");
+let fourthQuizPage = document.getElementById("fourthQuizPage");
 
 let choice1q1 = document.getElementById("topLeftQuestion1");
 let choice2q1 = document.getElementById("topRightQuestion1");
@@ -12,11 +13,18 @@ let choice2q2 = document.getElementById("topRightQuestion2");
 let choice3q2 = document.getElementById("bottomLeftQuestion2");
 let choice4q2 = document.getElementById("bottomRightQuestion2");
 
+let choice1q3 = document.getElementById("topLeftQuestion3");
+let choice2q3 = document.getElementById("topRightQuestion3");
+let choice3q3 = document.getElementById("bottomLeftQuestion3");
+let choice4q3 = document.getElementById("bottomRightQuestion3");
+
 let resultPoints = 0;
 
 firstQuizPage.style.display = "";
 secondQuizPage.style.display = "none";
 thirdQuizPage.style.display = "none";
+fourthQuizPage.style.display = "none";
+
 //Question 1
 choice1q1.addEventListener("click", function(){
   firstQuizPage.style.display = "none";
@@ -42,7 +50,9 @@ choice4q1.addEventListener("click", function(){
   resultPoints+= 40;
 
 })
+
 //Question 2
+
 choice1q2.addEventListener("click", function(){
   secondQuizPage.style.display = "none";
   thirdQuizPage.style.display = "";
@@ -67,6 +77,34 @@ choice4q2.addEventListener("click", function(){
   resultPoints+= 40;
 
 })
+
+//Question 3
+
+choice1q3.addEventListener("click", function(){
+  thirdQuizPage.style.display = "none";
+  fourthQuizPage.style.display = "";
+  resultPoints += 10;
+
+})
+choice2q3.addEventListener("click", function(){
+  thirdQuizPage.style.display = "none";
+  fourthQuizPage.style.display = "";
+  resultPoints+= 20;
+
+})
+choice3q3.addEventListener("click", function(){
+  thirdQuizPage.style.display = "none";
+  fourthQuizPage.style.display = "";
+  resultPoints+= 30;
+
+})
+choice4q3.addEventListener("click", function(){
+  thirdQuizPage.style.display = "none";
+  fourthQuizPage.style.display = "";
+  resultPoints+= 40;
+
+})
+
 /*question3.addEventListener("click", function(){
   div1.style.display = "none";
   div2.style.display = "none";
