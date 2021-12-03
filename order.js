@@ -2,7 +2,6 @@
 
 //12 pack = 15.99
 //48 pack = 35.99
-//taxes 14.975%
 
 let originalAndSugarfree = document.getElementById("cold");
 let boostAndCoffee = document.getElementById("hot");
@@ -12,11 +11,24 @@ let packOf48 = document.getElementById("48pack");
 
 let taxes = 14.975;
 let total = 0;
-packOf12 = 15.99;
-packOf48 = 35.99;
 
 let originalAndSugarfreeMultiplier = 1.2;
 let boostAndCoffeeMultiplier =  1.7;
+
+packOf12 = 15.99;
+packOf48 = 35.99;
+
+packOf12.addEventListener("click", function(){
+  total += packOf12;
+})
+
+packOf48.addEventListener("click", function(){
+  total += packOf48;
+})
+
+
+
+
 
 function calculatePrice(){
   total += packOf12;
@@ -26,5 +38,5 @@ function calculatePrice(){
 }
 
 function caluclateTaxes(){
-  total += (total * taxes) / 100;
+  total *= 0.14975;
 }
