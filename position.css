@@ -542,7 +542,7 @@ ol {
   text-align: center;
 }
 
-#quizEndImg{
+#quizEnd img{
   width: 60%;
 }
 
@@ -555,6 +555,14 @@ ol {
   font-weight: bold;
 }
 
-#resulth2{
+#black:hover{
+  color: lime;
+}
+
+#black:active{
+  color: green;
+}
+
+#black{
   color: black;
 }
