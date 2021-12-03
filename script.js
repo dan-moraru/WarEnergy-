@@ -1,7 +1,7 @@
 /*Main JavaScript. Dan Markaru & Marko Litovchenko*/
 
 let myStorage = window.localStorage;
-let lightTheme = myStorage.getItem("/light.css");
+//let lightTheme = myStorage.getItem("/light.css");
 
 let newsLetter = document.getElementById("email");
 let logoHead = document.getElementById("logoHead");
@@ -11,11 +11,15 @@ let orderButton = document.getElementById("insideButton");
 let themeButton = document.getElementById("switch");
 let themeLink = document.getElementsByTagName("link")[1];
 
-newsLetter.addEventListener("click", function(){
+/*newsLetter.addEventListener("click", function(){
   alert("Thank you for Subscribing!");
-})
+})*/
 
-myStorage.setItem("themeLink", "/dark.css");
+if (window.localStorage == null){
+  myStorage = window.localStorage;
+}
+
+myStorage.setItem("themeLink", myStorage.getItem("themeLink"));
 
 themeButton.addEventListener("click", function(){
   if (myStorage.getItem("themeLink") == "/dark.css"){
@@ -33,10 +37,6 @@ themeButton.addEventListener("click", function(){
   }
 
 })
-
-function setTheme(){
-  themeLink.setAttribute("href", myStorage.getItem("themeLink"));
-}
 
 
 
