@@ -537,22 +537,22 @@ ol {
 
 #quizEnd {
   grid-column: 2 / 6;
-  grid-row: 1 / 4;
+  grid-row: 1 / 9;
   border-radius: 20px;
   text-align: center;
-  padding-top: 150px;
 }
 
-.quizEndImg{
-  width: 100%;
+#quizEndImg{
+  width: 60%;
 }
 
 #quizEnd p {
   margin: 10px;
-  font-size: 30px;
-  /*display: inline;*/
-  padding: 10px;
+  font-size: 25px;
+  padding-bottom: 30px;
   color: black;
+  text-align: center;
+  font-weight: bold;
 }
 
 #resulth2{

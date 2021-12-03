@@ -132,45 +132,46 @@ choice1q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints += 20;
-
+  outputResult();
 })
 choice2q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 40;
-
+  outputResult();
 })
 choice3q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 30;
-
+  outputResult();
 })
 choice4q4.addEventListener("click", function(){
   fourthQuizPage.style.display = "none";
   quizEnd.style.display = "";
   resultPoints+= 10;
+  outputResult();
 })
 
-if (resultPoints > 0 && resultPoints <= 40){
-
-  resultH2.innerHTML("You are a War Energy Original flavour!");
-  result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083");
-  console.log(resultPoints);
-}
-else if (resultPoints > 40 && resultPoints <= 80){
-  resultH2.innerHTML("You are a War Energy Sugar Free flavour!");
-  result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FsugarfreeStanding.png?v=1638493764626");
-  console.log(resultPoints);
-  console.log(resultPoints);
-}
-else if (resultPoints > 80 && resultPoints <= 120){
-  resultH2.innerHTML("You are a War Energy Coffee flavour!");
-  result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FcoffeeStanding.png?v=1638493771188");
-  console.log(resultPoints);
-}
-else if (resultPoints > 120 && resultPoints <= 160){
-  resultH2.innerHTML("You are a War Energy BOOST flavour!");
-  result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FboostStanding.png?v=1638493776859");
-  console.log(resultPoints);
+function outputResult(){
+  if (resultPoints > 0 && resultPoints <= 40){
+    resultH2.textContent = "You are a War Energy Original flavour!";
+    result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083");
+    console.log(resultPoints);
+  }
+  else if (resultPoints > 40 && resultPoints <= 80){
+    resultH2.textContent = "You are a War Energy Sugar Free flavour!";
+    result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FsugarfreeStanding.png?v=1638493764626");
+    console.log(resultPoints);
+  }
+  else if (resultPoints > 80 && resultPoints <= 120){
+    resultH2.textContent = "You are a War Energy Coffee flavour!";
+    result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FcoffeeStanding.png?v=1638493771188");
+    console.log(resultPoints);
+  }
+  else if (resultPoints > 120 && resultPoints <= 160){
+    resultH2.textContent = "You are a War Energy BOOST flavour!";
+    result.setAttribute("src", "https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FboostStanding.png?v=1638493776859");
+    console.log(resultPoints);
+  }
 }
