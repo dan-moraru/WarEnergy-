@@ -10,15 +10,21 @@ let boostAndCoffee = document.getElementById("hot");
 let packOf12 = document.getElementById("12pack");
 let packOf48 = document.getElementById("48pack");
 
+let taxes = 
 let total = 0;
+packOf12 = 15.99;
+packOf48 = 35.99;
 
 let originalAndSugarfreeMultiplier = 1.2;
 let boostAndCoffeeMultiplier =  1.7;
 
-function getPrice(){
-  if (input.name = packof12)
+function calculatePrice(){
+  total += packOf12;
+  total += packOf48;
+  total *= originalAndSugarfreeMultiplier;
+  total += boostAndCoffeeMultiplier;
 }
 
 function caluclateTaxes(){
-  
+  total *= 
 }
