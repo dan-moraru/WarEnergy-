@@ -453,7 +453,7 @@ ol {
 
 #topLeftQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fcloudy%20weather.jpg?v=1638468051184");
-  background-size: 330px;
+  background-size: 100%px;
 }
 
 #topRightQuestion1 input{
@@ -463,7 +463,7 @@ ol {
 
 #bottomLeftQuestion1 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fsunny%20weather.PNG?v=1638467395935");
-  background-size: 350px;
+  background-size: 100%;
 }
 
 #bottomRightQuestion1 input{
@@ -485,19 +485,19 @@ ol {
 
 #bottomRightQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fmidnight.PNG?v=1638471267473");
-  background-size: 320px;
+  background-size: 100%;
 }
 #bottomLeftQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdusk.PNG?v=1638471062089");
-  background-size: 320px;
+  background-size: 100%;
 }
 #topRightQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fnoon.PNG?v=1638472032069");
-  background-size: 340px;
+  background-size: 100%;
 }
 #topLeftQuestion3 input{
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fdawn.PNG?v=1638470542015");
-  background-size: 340px;
+  background-size: 100%;
 }
 
 .quizInputStyle2:hover{
