@@ -17,10 +17,6 @@ newsLetter.addEventListener("click", function(){
 
 myStorage.setItem("themeLink", "/dark.css");
 
-/*orderButton.addEventListener("click", function(){
-  window.location.replace("order.html");
-})*/
-
 themeButton.addEventListener("click", function(){
   if (myStorage.getItem("themeLink") == "/dark.css"){
     myStorage.setItem("themeLink", "/light.css");

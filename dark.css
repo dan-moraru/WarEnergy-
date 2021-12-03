@@ -119,6 +119,19 @@ a:hover{
 #insideButton{
   color: white;
   font-size: 30px;
+  font-family: word;
+  border: white solid 5px;
+  padding: 10px;
+}
+
+#insideButton:hover{
+  color: lime;
+  border: green solid 5px;
+}
+
+#insideButton:active{
+  color: green;
+  border: darkgreen solid 5px;
 }
 
 .greenTitle{

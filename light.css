@@ -32,6 +32,24 @@ nav{
   text-align: center;
 }*/
 
+#insideButton{
+  color: black;
+  font-size: 30px;
+  font-family: word;
+  border: black solid 5px;
+  padding: 10px;
+}
+
+#insideButton:hover{
+  color: lime;
+  border: green solid 5px;
+}
+
+#insideButton:active{
+  color: green;
+  border: darkgreen solid 5px;
+}
+
 #purchase{
   background-color: beige;
 }
