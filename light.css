@@ -147,3 +147,7 @@ a:active{
 #quizStart p:active{
   color: green;
 }
+
+.righty table{
+  border: 20px solid black;
+}

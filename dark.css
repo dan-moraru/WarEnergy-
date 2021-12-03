@@ -15,6 +15,9 @@
   background: linear-gradient(65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(164.5deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-164.5deg, rgb(0, 130, 0) 25%, transparent 25%);
 }
 
+#zigzagRecipe{
+  background: linear-gradient(65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(50deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-50deg, rgb(0, 130, 0) 25%, transparent 25%);
+}
 
 body{
   background-color: #23272A;
@@ -173,4 +176,8 @@ a:active{
 
 #quizStart p:active{
   color: green;
+}
+
+.righty table{
+  border: 20px solid white;
 }

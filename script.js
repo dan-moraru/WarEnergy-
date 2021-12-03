@@ -1,7 +1,8 @@
 /*Main JavaScript. Dan Markaru & Marko Litovchenko*/
 
 let myStorage = window.localStorage;
-//let lightTheme = myStorage.getItem("/light.css");
+
+let validEmail = document.getElementById("newsLetter").children[1].checkValidity();
 
 let newsLetter = document.getElementById("email");
 let logoHead = document.getElementById("logoHead");
@@ -11,8 +12,8 @@ let orderButton = document.getElementById("insideButton");
 let themeButton = document.getElementById("switch");
 let themeLink = document.getElementsByTagName("link")[1];
 
-newsLetter.addEventListener('keypress', function (event) {
-  if (event.key === 'Enter') {
+newsLetter.addEventListener("keypress", function (event) {
+  if (event.key === "Enter" && validEmail) {
     alert("Thank you for Subscribing!");
   }
 });
