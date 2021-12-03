@@ -9,6 +9,9 @@ let boostAndCoffee = document.getElementById("hot");
 let packOf12 = document.getElementById("12pack");
 let packOf48 = document.getElementById("48pack");
 
+let total1 = document.getElementById("total1");
+let total2 = document.getElementById("total2");
+
 let taxes = 14.975;
 let total = 0;
 
@@ -26,17 +29,23 @@ packOf48.addEventListener("click", function(){
   total += packOf48;
 })
 
+originalAndSugarfree.addEventListener("click", function(){
+  total += originalAndSugarfreeMultiplier;
+})
 
+boostAndCoffee.addEventListener("click", function(){
+  total += boostAndCoffeeMultiplier;
+})
 
-
-
-function calculatePrice(){
+/*function calculatePrice(){
   total += packOf12;
   total += packOf48;
   total *= originalAndSugarfreeMultiplier;
   total += boostAndCoffeeMultiplier;
-}
+}*/
 
-function caluclateTaxes(){
-  total *= 0.14975;
-}
+total1.textContent = total;
+
+total *= 0.14975;
+
+total2.textContent = total;
