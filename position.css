@@ -526,3 +526,10 @@ ol {
   width: 60%;
   text-align: right;
 }
+
+#separatorLineLeft{
+  grid-column: 4 / 
+}
+#separatorLineRight{
+  
+}
