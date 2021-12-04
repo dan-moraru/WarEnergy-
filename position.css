@@ -3,6 +3,7 @@ html {
   height: 100%;
 }
 
+/*We set the custom fonts to a variable and use them whenever we need do*/
 @font-face {
   font-family: warFont;
   src: url(https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2FScorchedearth-4Ljp.otf?v=1635298581003);
@@ -171,7 +172,6 @@ main {
   font-size: 25px;
 }
 .purchaseChoices {
-  /*display: inline-block;*/
   text-align: left;
   margin-left: 75px;
   width: 40%;
@@ -431,7 +431,7 @@ ol {
   height: 100%;
   border-radius: 20px;
 }
-
+/*background images for the question options*/
 #topLeftQuestion1 input {
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fcloudy%20weather.jpg?v=1638468051184");
   background-size: 100%;
@@ -463,6 +463,7 @@ ol {
 #topLeftQuestion2 input {
   background-color: #66FF00;
 }
+
 
 #bottomRightQuestion3 input {
   background-image: url("https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fmidnight.PNG?v=1638471267473");
@@ -527,6 +528,8 @@ ol {
   width: 60%;
   text-align: right;
 }
+
+/*Green Bars in the Artist Room Page*/
 
 #topRightSeparator {
   grid-column: 5 / 9;

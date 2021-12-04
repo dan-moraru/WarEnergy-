@@ -1,3 +1,5 @@
+/*Quiz Script made by Dan Moraru and Marko Litovchenko*/
+
 let quizStart = document.getElementById("quizStart");
 let startButton = document.getElementById("startButton");
 
