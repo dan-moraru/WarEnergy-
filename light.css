@@ -84,6 +84,13 @@ nav{
   background-color: white;
 }
 
+dl{
+  border: solid black 10px;
+  padding: 20px;
+  margin: 0px;
+}
+
+
 .centerTop{
   color: rgb(0, 150, 0);
 }
