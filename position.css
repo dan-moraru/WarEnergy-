@@ -298,16 +298,16 @@ footer p {
 }
 
 #tableImg1 {
-  grid-column: 4 / 5;
-  grid-row: 2 / 3;
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
 }
 #tableImg2 {
-  grid-column: 6 / 7;
-  grid-row: 4 / 5;
+  grid-column: 5 / 7;
+  grid-row: 5 / 8;
 }
 #tableImg3 {
   grid-column: 7 / 9;
-  grid-row: 5 / 6;
+  grid-row: 8 / 9;
 }
 
 main video {
@@ -528,37 +528,14 @@ ol {
   text-align: right;
 }
 
-/*#separatorLineLeft{
-  grid-column: 4 / 5;
-  grid-row: 1 / 11;
-  background-color: rgb(0, 150, 0);
-  width: 50%;
+#topRightSeparator{
+  grid-column: 5 / 9;
+  grid-row: 3 / 4;
+  background-color: rgb(0, 80, 0);
 }
-#separatorLineRight{
-  grid-column: 7 / 8;
-  grid-row: 1 / 11;
-  background-color: rgb(0, 150, 0);
-  width: 50%;
-  margin-left: 86px;
+#middleRightSeparator{
+  grid-column: 6 / 10;
+  grid-row: 6 / 7;
+  background-color: rgb(0, 80, 0);
 }
-#separatorLineTopLeft{
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-  background-color: rgb(0, 150, 0);
-  
-}
-#separatorLineBottomRight{
-  grid-column: 8 / 11;
-  grid-row: 9 / 11;
-  background-color: rgb(0, 150, 0);
-}
-#separatorLineTop{
-  grid-column: 4 / 8;
-  grid-row: 1 / 2;
-  background-color: rgb(0, 150, 0);
-}
-#separatorLineBottom{
-  grid-column: 4 / 8;
-  grid-row: 9 / 11;
-  background-color: rgb(0, 150, 0);
-}*/
+#bottomRightSeparator
