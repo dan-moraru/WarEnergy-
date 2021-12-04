@@ -1,8 +1,8 @@
 /*Light CSS. Dan Moraru & Marko Litovchenko*/
 
 #zigzag {
-  background: linear-gradient(45deg, rgb(0, 150, 0) 25%, transparent 25%),
-    linear-gradient(-135deg, rgb(0, 220, 0) 25%, transparent 25%);
+  background: linear-gradient(47.5deg, rgb(0, 150, 0) 25%, transparent 25%),
+    linear-gradient(-132.5deg, rgb(0, 220, 0) 25%, transparent 25%);
 }
 
 /*Zig Zag Borders by Parvat Computer Technology: https://youtu.be/urYtvBmxMVE */

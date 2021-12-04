@@ -3,7 +3,7 @@
 /*Zig Zag Borders by Parvat Computer Technology: https://youtu.be/urYtvBmxMVE */
 #zigzag {
   background: linear-gradient(47.5deg, rgb(0, 80, 0) 25%, transparent 25%),
-    linear-gradient(-135deg, rgb(0, 150, 0) 25%, transparent 25%);
+    linear-gradient(-132.5deg, rgb(0, 150, 0) 25%, transparent 25%);
 }
 
 .zigzag {
