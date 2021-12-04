@@ -1,34 +1,40 @@
 /*Dark CSS. Dan Moraru & Marko Litovchenko*/
 
 /*Zig Zag Borders by Parvat Computer Technology: https://youtu.be/urYtvBmxMVE */
-#zigzag{
-  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%),  linear-gradient(-135deg, rgb(0, 150, 0) 25%, transparent 25%);
+#zigzag {
+  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%),
+    linear-gradient(-135deg, rgb(0, 150, 0) 25%, transparent 25%);
 }
 
-.zigzag{
-  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-45deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(135deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-135deg, rgb(0, 130, 0) 25%, transparent 25%);
+.zigzag {
+  background: linear-gradient(45deg, rgb(0, 80, 0) 25%, transparent 25%),
+    linear-gradient(-45deg, rgb(0, 80, 0) 25%, transparent 25%),
+      linear-gradient(135deg, rgb(0, 130, 0) 25%, transparent 25%),
+        linear-gradient(-135deg, rgb(0, 130, 0) 25%, transparent 25%);
 }
 
-#specialZigzag{
+#specialZigzag {
   grid-column: 1/17;
   grid-row: 1/17;
-  background: linear-gradient(65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(-65deg, rgb(0, 80, 0) 25%, transparent 25%), linear-gradient(164.5deg, rgb(0, 130, 0) 25%, transparent 25%), linear-gradient(-164.5deg, rgb(0, 130, 0) 25%, transparent 25%);
+  background: linear-gradient(65deg, rgb(0, 80, 0) 25%, transparent 25%),
+    linear-gradient(-65deg, rgb(0, 80, 0) 25%, transparent 25%),
+      linear-gradient(164.5deg, rgb(0, 130, 0) 25%, transparent 25%),
+        linear-gradient(-164.5deg, rgb(0, 130, 0) 25%, transparent 25%);
 }
 
-#zigzagRecipe{
-  
+#zigzagRecipe {
 }
 
-body{
+body {
   background-color: #23272A;
 }
 
-header{
+header {
   background-color: #2C2F33;
   /*border: 2px solid blue;*/
 }
 
-nav{
+nav {
   background-color: #2C2F33;
 }
 
@@ -41,86 +47,90 @@ nav{
   text-align: center;
 }*/
 
-#purchase{
+#purchase {
   background-color: #d3d3d3;
 }
 
-#orderText{
+#orderText {
   background-color: darkgreen;
 }
 
-#orderText h1{
+#orderText h1 {
   color: white;
 }
-.greenBorder{
+.greenBorder {
   border: 3px solid darkgreen;
 }
 
-#orderTextAndPurchase{
+#orderTextAndPurchase {
   background-color: #d3d3d3;
   border-right: 50px solid darkgreen;
   border-left: 50px solid darkgreen;
 }
-#orderPrices{
+#orderPrices {
   border: 3px solid darkgreen;
   background-color: white;
 }
 
-hr{
+hr {
   border-right: 100px solid white;
   border-left: 100px solid white;
 }
 
-#mainOrder{
+#mainOrder {
   background: hsla(210, 6%, 20%, 1);
-  background: radial-gradient(circle, hsla(210, 6%, 20%, 1) 0%, hsla(125, 64%, 29%, 1) 100%);
+  background: radial-gradient(
+    circle,
+    hsla(210, 6%, 20%, 1) 0%,
+    hsla(125, 64%, 29%, 1) 100%
+  );
 }
 
-#submitButton{
+#submitButton {
   color: white;
   background-color: darkgreen;
 }
 
-.centerTop{
+.centerTop {
   color: rgb(0, 177, 0);
 }
 
-#specific{
+#specific {
   color: black;
 }
 
-main form p{
+main form p {
   color: black;
 }
 
-#submitButton:hover{
+#submitButton:hover {
   background-color: rgb(0, 177, 0);
 }
-#submitButton:active{
+#submitButton:active {
   background-color: rgb(0, 150, 0);
 }
 
-footer{
+footer {
   background-color: #2C2F33;
 }
 
-button{
+button {
   background-color: #d3d3d3;
 }
 
-button:hover{
+button:hover {
   color: rgba(0, 235, 0, 1);
 }
 
-button:active{
+button:active {
   background-color: rgba(0, 120, 0, 1);
 }
 
-a:hover{
+a:hover {
   color: rgba(0, 255, 0, 1);
 }
 
-#insideButton{
+#insideButton {
   color: white;
   font-size: 30px;
   font-family: word;
@@ -128,67 +138,77 @@ a:hover{
   padding: 10px;
 }
 
-#insideButton:hover{
+#insideButton:hover {
   color: lime;
   border: green solid 5px;
 }
 
-#insideButton:active{
+#insideButton:active {
   color: green;
   border: darkgreen solid 5px;
 }
 
-.greenTitle{
+.greenTitle {
   color: rgb(0, 177, 0);
 }
 
-dl{
+dl {
   border: solid white 10px;
   padding: 20px;
   margin: 0px;
 }
 
-a, h1, p, td, li, dd, figcaption{
+a,
+h1,
+p,
+td,
+li,
+dd,
+figcaption {
   color: white;
 }
 
-.white{
+.white {
   color: white;
 }
 
-a:active{
+a:active {
   color: rgba(0, 120, 0, 1);
 }
 
-#logoHead{
+#logoHead {
   background-color: #2C2F33;
-  border-right: #2C2F33 solid 50px; 
+  border-right: #2C2F33 solid 50px;
 }
 
 /*h1 inspired by CW Joe: https://youtu.be/Ot5bBiy1cb4 */
 
-#l1{
-  background: -webkit-linear-gradient(hsla(131, 100%, 15%, 1) 0%, hsla(131, 100%, 22%, 1) 46%, hsla(131, 100%, 32%, 1) 100%);
+#l1 {
+  background: -webkit-linear-gradient(
+    hsla(131, 100%, 15%, 1) 0%,
+    hsla(131, 100%, 22%, 1) 46%,
+    hsla(131, 100%, 32%, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 0px 100px lime;
 }
 
-#quizStart p:hover{
+#quizStart p:hover {
   color: lime;
   border: darkgreen solid 3px;
   background-color: #909090;
 }
 
-#quizStart p:active{
+#quizStart p:active {
   color: green;
 }
 
-.righty table{
+.righty table {
   border: 20px solid white;
 }
 
-#quizMain form{
+#quizMain form {
   background-color: beige;
   border: 2px solid rgb(0, 200, 20);
   border-radius: 20px;
@@ -198,70 +218,70 @@ a:active{
   border: black solid 3px;
 }
 
-.quizInputStyle:hover{
+.quizInputStyle:hover {
   border: 5px solid lime;
 }
 
-.quizInputStyle:active{
+.quizInputStyle:active {
   border: 5px solid rgb(0, 120, 0);
 }
 
-.quizInputStyle[value]{
+.quizInputStyle[value] {
   font-size: 30px;
   color: white;
   font-weight: bold;
   font-family: word;
 }
 
-.quizInputStyle{
+.quizInputStyle {
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
 
-.quizInputStyle:hover{
-  background-color: rgb(20, 250, 40);;
+.quizInputStyle:hover {
+  background-color: rgb(20, 250, 40);
 }
 
-#bottomRightQuestion2 input{
+#bottomRightQuestion2 input {
   background-color: #32de84;
 }
-#bottomLeftQuestion2 input{
+#bottomLeftQuestion2 input {
   background-color: #568203;
 }
-#topRightQuestion2 input{
+#topRightQuestion2 input {
   background-color: #17B169;
 }
-#topLeftQuestion2 input{
+#topLeftQuestion2 input {
   background-color: #66FF00;
 }
 
-.quizInputStyle2:hover{
+.quizInputStyle2:hover {
   border: 5px solid lime;
 }
 
-.quizInputStyle2:active{
+.quizInputStyle2:active {
   border: 5px solid rgb(0, 120, 0);
 }
 
-.quizInputStyle2[value]{
+.quizInputStyle2[value] {
   font-size: 30px;
   color: white;
   font-weight: bold;
   font-family: word;
 }
 
-.quizInputStyle3[value]{
+.quizInputStyle3[value] {
   font-size: 10px;
   color: black;
   font-weight: bold;
   font-family: word;
 }
 
-.quizInputStyle3:hover{
+.quizInputStyle3:hover {
   border: 5px solid lime;
 }
-.quizInputStyle3:active{
+.quizInputStyle3:active {
   border: 5px solid rgb(0, 120, 0);
 }
 
@@ -271,14 +291,14 @@ a:active{
   font-weight: bold;
 }
 
-#black:hover{
+#black:hover {
   color: lime;
 }
 
-#black:active{
+#black:active {
   color: green;
 }
 
-#black{
+#black {
   color: black;
 }

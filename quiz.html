@@ -31,222 +31,239 @@
     </nav>
 
     <main id="quizMain">
-      
-        <form
-          action="https://sonic.dawsoncollege.qc.ca/~sam/lab8/suggestion.php"
-          method="post"
-        >
-          
-          <div id="quizStart">
-            <h2>Take our quiz to determine what flavour you are!</h2>
-            <p id="startButton">Start</p>       
+      <form
+        action="https://sonic.dawsoncollege.qc.ca/~sam/lab8/suggestion.php"
+        method="post"
+      >
+        <div id="quizStart">
+          <h2>Take our quiz to determine what flavour you are!</h2>
+          <p id="startButton">Start</p>
+        </div>
+
+        <div id="firstQuizPage" class="questionContainer">
+          <div class="questionImage">
+            <img
+              src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fweather.png?v=1638491752006"
+              alt="weather"
+            />
           </div>
-          
-          <div id="firstQuizPage" class="questionContainer">
-            <div class="questionImage">
-              <img src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fweather.png?v=1638491752006" alt="weather" />
-            </div>
-            <div class="question">
-              <h2>What kind of weather do you prefer?</h2>
-            </div>
-            <div id="topLeftQuestion1" class="topLeftQuestionStyle" >
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="weather"
-                name="weather"
-                value="Cloudy Day"
-              />
-            </div>
-
-            <div id="topRightQuestion1" class="topRightQuestionStyle" >
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="weather"
-                name="weather"
-                value="Rainy Day"
-              />
-            </div>
-
-            <div id="bottomLeftQuestion1" class="bottomLeftQuestionStyle" >
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="weather"
-                name="weather"
-                value="Sunny Day"
-              />
-            </div>
-
-            <div id="bottomRightQuestion1" class="bottomRightQuestionStyle" >
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="weather"
-                name="weather"
-                value="Snowy Day"
-              />
-            </div>
+          <div class="question">
+            <h2>What kind of weather do you prefer?</h2>
           </div>
-          <!-- Second page-->
-          <div id="secondQuizPage" class="questionContainer">
-            <div class="questionImage">
-              <img src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fgreen.png?v=1638492882496" alt="shades of green" />
-            </div>
-            <div class="question">
-              <h2>What shade of green do you like the most?</h2>
-            </div>
-            <div id="topLeftQuestion2" class="topLeftQuestionStyle">
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="color"
-                name="color"
-                value="Bright Green"
-              />
-            </div>
-
-            <div id="topRightQuestion2" class="topRightQuestionStyle">
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="color"
-                name="color"
-                value="Carlsberg Green"
-              />
-            </div>
-
-            <div id="bottomLeftQuestion2" class="bottomLeftQuestionStyle">
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="color"
-                name="color"
-                value="Avocado"
-              />
-            </div>
-
-            <div id="bottomRightQuestion2" class="bottomRightQuestionStyle">
-              <input
-                class="quizInputStyle"
-                type="button"
-                id="color"
-                name="color"
-                value="Android Green"
-              />
-            </div>
+          <div id="topLeftQuestion1" class="topLeftQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="weather"
+              name="weather"
+              value="Cloudy Day"
+            />
           </div>
-          
-          <!--Third Page-->
-          
-          <div id="thirdQuizPage" class="questionContainer">
-            <div class="questionImage">
-              <img src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Factibr.jpg?v=1638492499404" alt="times of the day" />
-            </div>
-            <div class="question">
-              <h2>When are you the most active during the day?</h2>
-            </div>
-            <div id="topLeftQuestion3" class="topLeftQuestionStyle">
-              <input
-                class="quizInputStyle2"
-                type="button"
-                id="active"
-                name="active"
-                value="Dawn"
-              />
-            </div>
 
-            <div id="topRightQuestion3" class="topRightQuestionStyle">
-              <input
-                class="quizInputStyle2"
-                type="button"
-                id="active"
-                name="active"
-                value="Noon"
-              />
-            </div>
-
-            <div id="bottomLeftQuestion3" class="bottomLeftQuestionStyle">
-              <input
-                class="quizInputStyle2"
-                type="button"
-                id="active"
-                name="active"
-                value="Dusk"
-              />
-            </div>
-
-            <div id="bottomRightQuestion3" class="bottomRightQuestionStyle">
-              <input
-                class="quizInputStyle2"                      
-                type="button"
-                id="active"
-                name="active"
-                value="Midnight"
-              />
-            </div>
+          <div id="topRightQuestion1" class="topRightQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="weather"
+              name="weather"
+              value="Rainy Day"
+            />
           </div>
-          
-          <!--Fourth Page-->
-          
-          <div id="fourthQuizPage" class="questionContainer">
-            <div class="questionImage">
-              <img src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Flneminme.jpg?v=1638492777516" alt="eminem rapping" />
-            </div>
-            <div class="question">
-              <h2>You are in an elevator, and the person next to you is listening to some really loud 
-                and annoying music. What do you do?</h2>
-            </div>
-            <div id="topLeftQuestion4" class="topLeftQuestionStyle">
-              <input
-                class="quizInputStyle3"
-                type="button"
-                id="active"
-                name="active"
-                value="You politely ask him to lower his music"
-              />
-            </div>
 
-            <div id="topRightQuestion4" class="topRightQuestionStyle">
-              <input
-                class="quizInputStyle3"
-                type="button"
-                id="active"
-                name="active"
-                value="You get mad and punch him in the face"
-              />
-            </div>
-
-            <div id="bottomLeftQuestion4" class="bottomLeftQuestionStyle">
-              <input
-                class="quizInputStyle3"
-                type="button"
-                id="active"
-                name="active"
-                value="You join in the fun and start a dance party in the elevator"
-              />
-            </div>
-
-            <div id="bottomRightQuestion4" class="bottomRightQuestionStyle">
-              <input
-                class="quizInputStyle3"                      
-                type="button"
-                id="active"
-                name="active"
-                value="You choose to ignore it and continue with your day"
-              />
-            </div>
+          <div id="bottomLeftQuestion1" class="bottomLeftQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="weather"
+              name="weather"
+              value="Sunny Day"
+            />
           </div>
+
+          <div id="bottomRightQuestion1" class="bottomRightQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="weather"
+              name="weather"
+              value="Snowy Day"
+            />
+          </div>
+        </div>
+        <!-- Second page-->
+        <div id="secondQuizPage" class="questionContainer">
+          <div class="questionImage">
+            <img
+              src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Fgreen.png?v=1638492882496"
+              alt="shades of green"
+            />
+          </div>
+          <div class="question">
+            <h2>What shade of green do you like the most?</h2>
+          </div>
+          <div id="topLeftQuestion2" class="topLeftQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="color"
+              name="color"
+              value="Bright Green"
+            />
+          </div>
+
+          <div id="topRightQuestion2" class="topRightQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="color"
+              name="color"
+              value="Carlsberg Green"
+            />
+          </div>
+
+          <div id="bottomLeftQuestion2" class="bottomLeftQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="color"
+              name="color"
+              value="Avocado"
+            />
+          </div>
+
+          <div id="bottomRightQuestion2" class="bottomRightQuestionStyle">
+            <input
+              class="quizInputStyle"
+              type="button"
+              id="color"
+              name="color"
+              value="Android Green"
+            />
+          </div>
+        </div>
+
+        <!--Third Page-->
+
+        <div id="thirdQuizPage" class="questionContainer">
+          <div class="questionImage">
+            <img
+              src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Factibr.jpg?v=1638492499404"
+              alt="times of the day"
+            />
+          </div>
+          <div class="question">
+            <h2>When are you the most active during the day?</h2>
+          </div>
+          <div id="topLeftQuestion3" class="topLeftQuestionStyle">
+            <input
+              class="quizInputStyle2"
+              type="button"
+              id="active"
+              name="active"
+              value="Dawn"
+            />
+          </div>
+
+          <div id="topRightQuestion3" class="topRightQuestionStyle">
+            <input
+              class="quizInputStyle2"
+              type="button"
+              id="active"
+              name="active"
+              value="Noon"
+            />
+          </div>
+
+          <div id="bottomLeftQuestion3" class="bottomLeftQuestionStyle">
+            <input
+              class="quizInputStyle2"
+              type="button"
+              id="active"
+              name="active"
+              value="Dusk"
+            />
+          </div>
+
+          <div id="bottomRightQuestion3" class="bottomRightQuestionStyle">
+            <input
+              class="quizInputStyle2"
+              type="button"
+              id="active"
+              name="active"
+              value="Midnight"
+            />
+          </div>
+        </div>
+
+        <!--Fourth Page-->
+
+        <div id="fourthQuizPage" class="questionContainer">
+          <div class="questionImage">
+            <img
+              src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2Flneminme.jpg?v=1638492777516"
+              alt="eminem rapping"
+            />
+          </div>
+          <div class="question">
+            <h2>
+              You are in an elevator, and the person next to you is listening to
+              some really loud and annoying music. What do you do?
+            </h2>
+          </div>
+          <div id="topLeftQuestion4" class="topLeftQuestionStyle">
+            <input
+              class="quizInputStyle3"
+              type="button"
+              id="active"
+              name="active"
+              value="You politely ask him to lower his music"
+            />
+          </div>
+
+          <div id="topRightQuestion4" class="topRightQuestionStyle">
+            <input
+              class="quizInputStyle3"
+              type="button"
+              id="active"
+              name="active"
+              value="You get mad and punch him in the face"
+            />
+          </div>
+
+          <div id="bottomLeftQuestion4" class="bottomLeftQuestionStyle">
+            <input
+              class="quizInputStyle3"
+              type="button"
+              id="active"
+              name="active"
+              value="You join in the fun and start a dance party in the elevator"
+            />
+          </div>
+
+          <div id="bottomRightQuestion4" class="bottomRightQuestionStyle">
+            <input
+              class="quizInputStyle3"
+              type="button"
+              id="active"
+              name="active"
+              value="You choose to ignore it and continue with your day"
+            />
+          </div>
+        </div>
         <!--End of the quiz-->
         <div id="quizEnd">
-        <h2 id="resulth2">Text</h2>
-        <img id="result" src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083" alt="War Energy Original" />
-        <p>Nice flavour! Want to drink it for real? <a id="black" href="order.html">Order it now!</a></p>
-      </div>
-          
-        </form>
-        
+          <h2 id="resulth2">Text</h2>
+          <img
+            id="result"
+            src="https://cdn.glitch.me/536f4a60-7027-4969-bb7b-dc4f746a8da3%2ForiginalStanding.png?v=1638493757083"
+            alt="War Energy Original"
+          />
+          <p>
+            Nice flavour! Want to drink it for real?
+            <a id="black" href="order.html">Order it now!</a>
+          </p>
+        </div>
+      </form>
     </main>
 
     <footer>
@@ -266,8 +283,10 @@
 
       <div id="navFoot">
         <p>
-          <a href="order.html">ORDER</a> ▪️ <a href="recipe.html">OUR RECIPE</a> ▪️
-          <a href="aboutus.html">ABOUT US</a> ▪️ <a href="artistroom.html">ARTIST ROOM</a> ▪️
+          <a href="order.html">ORDER</a> ▪️
+          <a href="recipe.html">OUR RECIPE</a> ▪️
+          <a href="aboutus.html">ABOUT US</a> ▪️
+          <a href="artistroom.html">ARTIST ROOM</a> ▪️
           <a href="quiz.html">TAKE OUR QUIZ</a> ▪️
           <a href="quiz.html">BACK TO TOP</a>
         </p>
