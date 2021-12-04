@@ -90,7 +90,6 @@ dl{
   margin: 0px;
 }
 
-
 .centerTop{
   color: rgb(0, 150, 0);
 }
@@ -179,10 +178,6 @@ a:active{
 
 #quizStart p:active{
   color: green;
-}
-
-.righty table{
-  border: 20px solid white;
 }
 
 #quizMain form{
