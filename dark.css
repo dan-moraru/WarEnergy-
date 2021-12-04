@@ -302,3 +302,22 @@ a:active {
 #black {
   color: black;
 }
+
+#topRightSeparator{
+  background-color: rgb(0, 80, 0);
+}
+#middleRightSeparator{
+  background-color: rgb(0, 80, 0);
+}
+#bottomRightSeparator{
+  background-color: rgb(0, 80, 0); 
+}
+#topLeftSeparator{
+  background-color: rgb(0, 80, 0);
+}
+#middleLeftSeparator{
+  background-color: rgb(0, 80, 0);
+}
+#bottomLeftSeparator{
+  background-color: rgb(0, 80, 0); 
+}
