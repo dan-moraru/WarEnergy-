@@ -1,4 +1,4 @@
-Dummy energy drink comapny website with basic html, css and js.
+# Dummy energy drink comapny website with basic html, css and js.
 
 # Hello Website (blank)
 
